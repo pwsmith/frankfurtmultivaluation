@@ -15,6 +15,7 @@ $link-color: $secondary-color !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $primary-color !default;
 $navicon-link-color-hover: mix(#fff, $primary-color, 80%) !default;
+$link-color-hover: $secondary-color;
 
 .page__footer {
   color: #fff !important; // override
