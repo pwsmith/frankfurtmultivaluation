@@ -1,0 +1,24 @@
+# /_data/authors.yml
+
+Pete:
+  name: "Peter W. Smith"
+  uri: "http://users.uni-frankfurt.de/~psmith"
+  email: "p.smith@em.uni-frankfurt.de"
+  bio: "PI, Syntax Postdoc"
+  avatar: "/assets/images/pete_nz.jpg"
+  github: "pwsmith"
+
+Zheng:
+  name: "Zheng Shen"
+  uri: "http://zheng-shen.github.io"
+  email: "shen@em.uni-frankfurt.de"
+  bio: "Project Postdoc"
+  avatar: "/assets/images/zheng.jpg"
+  github: "zheng-shen"
+  
+Katharina:
+  name: "Katharina"
+  uri: "https://www.uni-frankfurt.de/58779047/Hartmann_Syntax"
+  email: "hartmann@lingua.uni-frankfurt.de"
+  bio: "PI, Syntax Professor"
+  avatar: "/assets/images/katharina.jpg"

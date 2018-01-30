@@ -38,3 +38,12 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+.centeralign{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2em;
+		 
+}
+
