@@ -11,7 +11,7 @@ author_profile: true
 ![Pete](/assets/images/pete_nz2.jpg)
 {: .logosize .align-center }
 
-Peter W. Smith is a wissenschaftlicher Mitarbeiter at the Syntax Chair of Katharina Hartmann in the Instit für Linguistik, Goethe-Universität, Frankfurt.
+Peter W. Smith is a Wissenschaftlicher Mitarbeiter at the Syntax Chair of Katharina Hartmann in the Instit für Linguistik, Goethe-Universität, Frankfurt.
 
 ### [Katharina Hartmann](https://www.uni-frankfurt.de/58779047/Hartmann_Syntax) (PI)
 
@@ -39,7 +39,7 @@ Franc Marušič is Associate professor of linguistics at the School of Humanit
 ![Bam!](/assets/images/bampic.jpg)
 {: .logosize }
 
-Beata Moskal is Wissenschaftlicher Mitarbeiterin at the Phonology Chair of Caroline Féry at Goethe-Universität, Frankfurt.
+Beata Moskal is Wissenschaftliche Mitarbeiterin at the Phonology Chair of Caroline Féry at Goethe-Universität, Frankfurt.
 She works on issues such as suppletion, markedness, and the nature of grammatical features.
 
 ### [Fenna Bergsma](http://user.uni-frankfurt.de/~bergsma)
