@@ -11,7 +11,7 @@ author_profile: true
 ![Pete](/assets/images/pete_nz2.jpg)
 {: .logosize .align-center }
 
-Peter W. Smith is a Wissenschaftlicher Mitarbeiter at the Syntax Chair of Katharina Hartmann in the Instit für Linguistik, Goethe-Universität, Frankfurt.
+Peter W. Smith is a Wissenschaftlicher Mitarbeiter at the Syntax Chair of Katharina Hartmann in the Institut für Linguistik, Goethe-Universität, Frankfurt.
 
 ### [Katharina Hartmann](https://www.uni-frankfurt.de/58779047/Hartmann_Syntax) (PI)
 
@@ -26,7 +26,7 @@ Katharina Hartmann is Professor of Syntax at the Institut für Linguistik, Goeth
 ![Zheng](/img/logo.jpg)
 {: .logosize }
 
-Zheng Shen is the post-doc for the project, and incorporated into the Syntax Chair of Katharina Hartmann in the Instit für Linguistik, Goethe-Universität, Frankfurt.
+Zheng Shen is the post-doc for the project, and incorporated into the Syntax Chair of Katharina Hartmann in the Institut für Linguistik, Goethe-Universität, Frankfurt.
 
 ## Associate Members
 
