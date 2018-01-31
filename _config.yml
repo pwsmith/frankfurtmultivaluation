@@ -15,7 +15,7 @@ name                     : "Multivaluation @ Frankfurt"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : pwsmith/frankfurtmultivaluation
+repository               : /frankfurtmultivaluation
 # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/img/treelogo.png"
 # breadcrumbs            : false # true, false (default)
