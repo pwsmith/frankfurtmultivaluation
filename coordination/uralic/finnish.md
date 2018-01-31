@@ -5,5 +5,4 @@ sidebar:
   nav: "coordination"
 ---
 
-Hello
-
+*Coming soon*

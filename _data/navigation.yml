@@ -31,9 +31,5 @@ coordination:
     children:
      -  title: "Finnish"
         url: /coordination/uralic/Finnish
-  - title: "ND"
-    children:
-      -  title: "Udi"
-         url: /coordination/ND/Udi
 
 
