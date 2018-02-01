@@ -15,7 +15,7 @@ Peter W. Smith is a Wissenschaftlicher Mitarbeiter at the Syntax Chair of Kathar
 
 ### [Katharina Hartmann](https://www.uni-frankfurt.de/58779047/Hartmann_Syntax) (PI)
 
-![Katharina](/img/logo.jpg)
+![Katharina](/img/katharina.jpeg)
 {: .logosize }
 
 Katharina Hartmann is Professor of Syntax at the Institut für Linguistik, Goethe-Universität, Frankfurt.
