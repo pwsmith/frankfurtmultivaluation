@@ -23,7 +23,7 @@ Katharina Hartmann is Professor of Syntax at the Institut für Linguistik, Goeth
 ### [Zheng Shen](https://zheng-shen.github.io/)
 
 
-![Zheng](/img/logo.jpg)
+![Zheng](/assets/images/zheng.jpg)
 {: .logosize }
 
 Zheng Shen is the post-doc for the project, and incorporated into the Syntax Chair of Katharina Hartmann in the Institut für Linguistik, Goethe-Universität, Frankfurt.
