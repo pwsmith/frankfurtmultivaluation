@@ -11,7 +11,7 @@ This project will investigate how agreement is resolved when the target of agree
 It has been shown in the literature that the resolution of such a situation is subject to variation across languages.
 As yet there is no explanation for why languages vary in the way that they do.
 Our aim in this project is to account for the variation in how instances of multi-valuation is resolved by systematically looking across both the targets of agreement, and constructions where multi-valuation occurs.
-If an element receives multiple values for the same feature, two main options are known to be available: it can either resolve the situation to a semantically suitable value, for instance Sg + Sg = Pl, or it can prefer the value of the closet agreement controller.
+If an element receives multiple values for the same feature, two main options are known to be available: it can either resolve the situation to a semantically suitable value, for instance Sg + Sg = Pl, or it can prefer the value of the closest agreement controller.
 Both situations have been attested across languages, often with language internal variation depending on the type of agreement target (verb vs. noun vs. attributive elements).
 Yet, this variation is not random.
 Some languages (eg. Russian) show resolved plural agreement across all targets, whilst others show no resolution for any target (eg. Slovenian). Furthermore some languages can have differing patterns for different targets.
