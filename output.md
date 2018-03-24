@@ -8,7 +8,7 @@ Here are manuscripts and slides/handouts of talks.
 
 ## Papers
 
-Coming soon.
+Smith, Peter. W., Beata Moskal, Katharina Hartmann and Zheng Shen (2017). [Feature Conflicts, Feature Resolution and the structure of *either ... or*](/assets/files/eitherorresolution.pdf). Manuscript, for *The Proceedings of SinFonIJA X*.
 
 ## Talks
 
