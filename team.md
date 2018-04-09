@@ -28,6 +28,14 @@ Katharina Hartmann is Professor of Syntax at the Institut für Linguistik, Goeth
 
 Zheng Shen is the post-doc for the project, and incorporated into the Syntax Chair of Katharina Hartmann in the Institut für Linguistik, Goethe-Universität, Frankfurt.
 
+### Nelly Kezerova
+
+![Nelly](/assets/images/Nelly.jpg)
+{: .logosize }
+
+
+Nelly is the student assistant for the project, and MA student of Lingusitics at Goethe-Universität, Frankfurt.
+
 ## Associate Members
 
 ### [Franc Marušič](http://www.ung.si/~fmarusic/index2.html)
