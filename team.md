@@ -30,7 +30,7 @@ Zheng Shen is the post-doc for the project, and incorporated into the Syntax Cha
 
 ### Nelly Kezerova
 
-![Nelly](/assets/images/Nelly.jpg)
+![Nelly](/assets/images/nelly.jpg)
 {: .logosize }
 
 
