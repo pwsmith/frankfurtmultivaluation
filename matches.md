@@ -3,9 +3,6 @@ layout: single
 title: "Agreement"
 author_profile: true
 ---
-
-## Agreement
-
 This sub-project looks into cases where one element receives multiple feature values, i.e. multi-valuation. 
 
 In the nominal domain, multi-valuation is seen in the Nominal Right Node Raising construction in (1). In (1) _student(s)_ is shared by two DPs and it receives one singular value from each DP. In English, the pivot noun must be spelled out as singular, while in languages like Russian, it can be spelled out as plural.
