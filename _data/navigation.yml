@@ -22,14 +22,31 @@ main:
   #   url: /sitemap/
 
 coordination:
-  - title: "Language Files"
-  - title: "Indo-European"
+  - title: "Language Families"
     children:
-     -  title: "English"
-        url: /coordination/ie/English
-  - title: "Uralic"
-    children:
-     -  title: "Finnish"
-        url: /coordination/uralic/Finnish
+    - title: "Atlantic-Congo"
+      url: /coordination/atlantic-congo
+    - title: "Austronesian"
+      url: /coordination/austronesian
+    - title: "Indo-European"
+      url: /coordination/indo-european
+    - title: "Koiarian"
+      url: /coordination/koiarian
+    - title: "Sino-Tibetan"
+      url: /coordination/sino-tibetan
+    - title: "Tungusic"
+      url: /coordination/tungusic
+    - title: "Worrorran"
+      url: /coordination/worrorran
+ # - title: "Indo-European"
+  #  children:
+  #   -  title: "English"
+  #      url: /coordination/ie/English
+  #- title: "Uralic"
+  #  children:
+  #   -  title: "Finnish"
+  #      url: /coordination/uralic/Finnish
+  #- title: "Austronesian"
+  #  url: /coordination/austronesian
 
 
