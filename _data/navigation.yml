@@ -25,19 +25,19 @@ coordination:
   - title: "Language Families"
     children:
     - title: "Atlantic-Congo"
-      url: /coordination/atlantic-congo
+      url: /cdatlantic-congo
     - title: "Austronesian"
-      url: /coordination/austronesian
+      url: /cdaustronesian
     - title: "Indo-European"
       url: /coordination/indo-european
     - title: "Koiarian"
-      url: /coordination/koiarian
+      url: /cdkoiarian
     - title: "Sino-Tibetan"
-      url: /coordination/sino-tibetan
+      url: /cdsino-tibetan
     - title: "Tungusic"
-      url: /coordination/tungusic
+      url: /cdtungusic
     - title: "Worrorran"
-      url: /coordination/worrorran
+      url: /cdworrorran
  # - title: "Indo-European"
   #  children:
   #   -  title: "English"
