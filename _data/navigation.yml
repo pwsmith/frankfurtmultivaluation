@@ -24,18 +24,28 @@ main:
 coordination:
   - title: "Language Families"
     children:
+    - title: "Afro-Asiatic"
+      url: /cdafroasiatic
     - title: "Atlantic-Congo"
       url: /cdatlantic-congo
     - title: "Austronesian"
       url: /cdaustronesian
+    - title: "Dogon"
+      url: /cddogon
     - title: "Indo-European"
-      url: /coordination/indo-european
+      url: /cdindo-european
     - title: "Koiarian"
       url: /cdkoiarian
+    - title: "Nyulnyulan"
+      url: /cdnyulnyulan
+    - title: "Otomanguean"
+      url: /cdotomanguean
     - title: "Sino-Tibetan"
       url: /cdsino-tibetan
     - title: "Tungusic"
       url: /cdtungusic
+    - title: "Uto-Aztecan"
+      url: /cdutoaztecan
     - title: "Worrorran"
       url: /cdworrorran
  # - title: "Indo-European"

@@ -5,4 +5,7 @@ sidebar:
     nav: "coordination"
 ---
 
-[Late Cornish](/coordination/cfiles/latecornish.pdf)
+- [Corsican](/coordination/cfiles/corsican.pdf)
+- [Dhivehi-Maldivian](/coordination/cfiles/dhivehimaldivian.pdf)
+- [Late Cornish](/coordination/cfiles/latecornish.pdf)
+- [Papiamentu](/coordination/cfiles/papiamentu.pdf)

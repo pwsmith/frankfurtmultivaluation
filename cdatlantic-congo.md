@@ -5,4 +5,6 @@ sidebar:
     nav: "coordination"
 ---
 
-[Mbalanhu](/coordination/cfiles/mbalanhu.pdf)
+- [Mbalanhu](/coordination/cfiles/mbalanhu.pdf)
+- [Northern Sotho](/coordination/cfiles/northernsotho.pdf)
+- [Zulu](/coordination/cfiles/zulu.pdf)
