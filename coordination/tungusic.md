@@ -6,4 +6,4 @@ sidebar:
 ---
 
 
-[Even](/coordination/cfiles/even.pdf)
+[Even](/assets/files/even.pdf)
