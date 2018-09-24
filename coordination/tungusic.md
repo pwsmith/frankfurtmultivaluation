@@ -6,4 +6,4 @@ sidebar:
 ---
 
 
-[Even](multivaluation/coordination/cfiles/even.pdf)
+[Even](/multivaluation/coordination/cfiles/even.pdf)
