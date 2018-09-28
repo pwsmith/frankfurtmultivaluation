@@ -5,5 +5,5 @@ sidebar:
   nav: "coordination"
 ---
 
-
-[Cantonese](/coordination/cfiles/cantonese.pdf)
+- [Bisu](/coordination/cfiles/bisu/pdf)
+- [Cantonese](/coordination/cfiles/cantonese.pdf)

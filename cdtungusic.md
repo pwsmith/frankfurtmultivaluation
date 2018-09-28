@@ -5,4 +5,5 @@ sidebar:
   nav: "coordination"
 ---
 
-[Even](/coordination/cfiles/even.pdf)
+- [Even](/coordination/cfiles/even.pdf)
+- [Evenki](/coordination/cfiles/evenki.pdf)

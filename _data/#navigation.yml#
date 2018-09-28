@@ -30,18 +30,12 @@ coordination:
       url: /cdatlantic-congo
     - title: "Austronesian"
       url: /cdaustronesian
-    - title: "Aymaran"
-      url: /cdaymaran
-    - title: "Cochimi-Yuman"
-      url: /cdcochimiyuman
     - title: "Dogon"
       url: /cddogon
-    - title: "Guaicuruan"
-      url: /cdguaicuruan
     - title: "Indo-European"
       url: /cdindo-european
-    - title: "Kartvelian"
-      url: /cdkartvelian
+    - title: "Isolates"
+      url: 
     - title: "Koiarian"
       url: /cdkoiarian
     - title: "Mongolic"
@@ -50,14 +44,10 @@ coordination:
       url: /cdnyulnyulan
     - title: "Otomanguean"
       url: /cdotomanguean
-    - title: "Pama-Nyungan"
-      url: /cdpamanyungan
     - title: "Sino-Tibetan"
       url: /cdsino-tibetan
     - title: "Tungusic"
       url: /cdtungusic
-    - title: "Tukic"
-      url: /cdturkic
     - title: "Uto-Aztecan"
       url: /cdutoaztecan
     - title: "Worrorran"
