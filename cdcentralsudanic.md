@@ -6,3 +6,4 @@ sidebar:
 ---
 
 - [Mamvu](/coordination/cfiles/mamvu.pdf)
+- [Mangbetu](/coordination/cfiles/mangbetu.pdf)

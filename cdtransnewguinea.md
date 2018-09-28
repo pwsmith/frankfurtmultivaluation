@@ -7,3 +7,4 @@ sidebar:
 
 - [Amele](/coordination/cfiles/amele.pdf)
 - [Kobon](/coordination/cfiles/kobon.pdf)
+- [Waskia](/coordination/cfiles/waskia.pdf)

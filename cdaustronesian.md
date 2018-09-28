@@ -23,6 +23,8 @@ sidebar:
 - [Saliba](/coordination/cfiles/saliba.pdf)
 - [Samoan](/coordination/cfiles/samoan.pdf)
 - [Sundanese](/coordination/cfiles/sundanese.pdf)
+- [Tahitian](/coordination/cfiles/tahitian.pdf)
 - [Tokelauan](/coordination/cfiles/tokelauan.pdf)
 - [Tolai](/coordination/cfiles/tolai.pdf)
+- [Tondano](/coordination/cfiles/tondano.pdf)
 - [Warembori](/coordination/cfiles/warembori.pdf)

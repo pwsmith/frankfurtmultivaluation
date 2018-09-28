@@ -5,4 +5,5 @@ sidebar:
   nav: "coordination"
 ---
 
-- [Chagatay](/coordination/cdfiles/chagatay.pdf)
+- [Chagatay](/coordination/cfiles/chagatay.pdf)
+- [Sakha](/coordination/cfiles/sakha.pdf)

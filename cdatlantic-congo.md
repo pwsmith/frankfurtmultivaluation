@@ -6,6 +6,7 @@ sidebar:
 ---
 
 - [Banda-Linda](/coordination/cfiles/linda.pdf)
+- [Birom](/coordination/cfiles/birom.pdf)
 - [Chichewa](/coordination/cfiles/chichewa.pdf)
 - [Chingoni](/coordination/cfiles/chingoni.pdf)
 - [Dagaare](/coordination/cfiles/dagaare.pdf)
@@ -20,4 +21,6 @@ sidebar:
 - [Sango](/coordination/cfiles/sango.pdf)
 - [Shona](/coordination/cfiles/shona.pdf)
 - [Swahili](/coordination/cfiles/swahil.pdf)
+- [Vengo](/coordination/cfiles/vengo.pdf)
+- [Yoruba](/coordination/cfiles/yoruba.pdf)
 - [Zulu](/coordination/cfiles/zulu.pdf)

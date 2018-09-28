@@ -6,3 +6,4 @@ sidebar:
 ---
 
 - [Kiliwa](/coordination/cfiles/kiliwa.pdf)
+- [Yavapai](/coordination/cfiles/yavapai.pdf)

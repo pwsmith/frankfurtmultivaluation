@@ -28,6 +28,8 @@ coordination:
       url: /cdafroasiatic
     - title: "Arawakan"
       url: /cdarawakan
+    - title: "Athabaskan"
+      url: /cdathabaskan
     - title: "Atlantic-Congo"
       url: /cdatlantic-congo
     - title: "Austro-Asiatic"
@@ -66,6 +68,8 @@ coordination:
       url: /cdmongolic
     - title: "Nilotic"
       url: /cdnilotic
+    - title: "Nubian"
+      url: /cdnubian
     - title: "Nyulnyulan"
       url: /cdnyulnyulan
     - title: "Otomanguean"
@@ -88,7 +92,9 @@ coordination:
       url: /cdtransnewguinea
     - title: "Tungusic"
       url: /cdtungusic
-    - title: "Tukic"
+    - title: "Tupian"
+      url: /cdtupian
+    - title: "Turkic"
       url: /cdturkic
     - title: "Uto-Aztecan"
       url: /cdutoaztecan
