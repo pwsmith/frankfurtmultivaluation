@@ -7,3 +7,5 @@ sidebar:
 
 - [Chadian Arabic](/coordination/cfiles/chadianarabic.pdf)
 - [Old-Babylonian](/coordination/cfiles/oldbabylonian.pdf)
+- [Marghi](/coordination/cfiles/marghi.pdf)
+- [Tera](/coordination/cfiles/tera.pdf)

@@ -6,3 +6,4 @@ sidebar:
 ---
 
 - [Kamass](/coordination/cfiles/kamass.pdf)
+- [Nenets](/coordination/cfiles/nenets.pdf)

@@ -5,4 +5,6 @@ sidebar:
     nav: "coordination"
 ---
 
-[Pima-Bajo](/coordination/cfiles/pimabajo.pdf)
+- [Chemehuevi](/coordination/cfiles/chemehuevi.pdf)
+- [Pima-Bajo](/coordination/cfiles/pimabajo.pdf)
+- [Pipil](/coordination/cfiles/pipil.pdf)

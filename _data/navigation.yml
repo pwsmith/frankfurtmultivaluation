@@ -26,40 +26,74 @@ coordination:
     children:
     - title: "Afro-Asiatic"
       url: /cdafroasiatic
+    - title: "Arawakan"
+      url: /cdarawakan
     - title: "Atlantic-Congo"
       url: /cdatlantic-congo
+    - title: "Austro-Asiatic"
+      url: /cdaustroasiatic
     - title: "Austronesian"
       url: /cdaustronesian
     - title: "Aymaran"
       url: /cdaymaran
+    - title: "Cariban"
+      url: /cdcariban
+    - title: "Central Sudanic"
+      url: /cdcentralsudanic
     - title: "Cochimi-Yuman"
       url: /cdcochimiyuman
     - title: "Dogon"
       url: /cddogon
+    - title: "Eskimo-Aleut"
+      url: /cdeskimoaleut
     - title: "Guaicuruan"
       url: /cdguaicuruan
     - title: "Indo-European"
       url: /cdindo-european
+    - title: "Japonic"
+      url: /cdjaponic
+    - title: "Je"
+      url: /cdje
     - title: "Kartvelian"
       url: /cdkartvelian
     - title: "Koiarian"
       url: /cdkoiarian
+    - title: "Mande"
+      url: /cdmande
+    - title: "Mayan"
+      url: /cdmayan
     - title: "Mongolic"
       url: /cdmongolic
+    - title: "Nilotic"
+      url: /cdnilotic
     - title: "Nyulnyulan"
       url: /cdnyulnyulan
     - title: "Otomanguean"
       url: /cdotomanguean
     - title: "Pama-Nyungan"
       url: /cdpamanyungan
+    - title: "Pano-Tacanan"
+      url: /cdpanotacanan
+    - title: "Saharan"
+      url: /cdsaharan
+    - title: "Salishan"
+      url: /cdsalishan
     - title: "Sino-Tibetan"
       url: /cdsino-tibetan
+    - title: "Songhay"
+      url: /cdsonghay
+    - title: "Southern Daly"
+      url: /cdsoutherndaly
+    - title: "Trans New Guinea"
+      url: /cdtransnewguinea
     - title: "Tungusic"
       url: /cdtungusic
     - title: "Tukic"
       url: /cdturkic
     - title: "Uto-Aztecan"
       url: /cdutoaztecan
+    - title: "Wakashan"
+      url: /cdwakashan
     - title: "Worrorran"
       url: /cdworrorran
  # - title: "Indo-European"

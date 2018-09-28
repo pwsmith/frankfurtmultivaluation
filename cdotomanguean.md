@@ -5,4 +5,6 @@ sidebar:
    nav: "coordination"
 ---
 
+- [Chatino](/coordination/cfiles/chatino.pdf)
 - [Ixtenco Otomí](/coordination/cfiles/ixtenco.pdf)
+- [Peñoles Mixtec](/coordination/cfiles/mixtec.pdf)
