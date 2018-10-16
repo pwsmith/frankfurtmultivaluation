@@ -6,7 +6,7 @@ author_profile: true
 
 We have uploaded our first batch of language files for the coordination project.
 One of our aims is to build a freely accessible repository of coordination strategies across languages, and so far we have collected data from 122 languages.
-These files can be found at the [coordination](/coordination) page where they are collected by language family.
+These files can be found at the [coordination](https://pwsmith.github.io/multivaluation/coordination/) page where they are collected by language family.
 The data are drawn from reference grammars of the languages and represents all the information on coordination in that grammar that we could find.
 
 The database itself is still quite rudimentary right now and we aim to develop the infrastructure, and how things are organised quite extensively as we proceed.
