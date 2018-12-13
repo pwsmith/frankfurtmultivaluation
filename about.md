@@ -15,8 +15,8 @@ If an element receives multiple values for the same feature, two main options ar
 Both situations have been attested across languages, often with language internal variation depending on the type of agreement target (verb vs. noun vs. attributive elements).
 Yet, this variation is not random.
 Some languages (eg. Russian) show resolved plural agreement across all targets, whilst others show no resolution for any target (eg. Slovenian). Furthermore some languages can have differing patterns for different targets.
-In English, for instance, two singular features on a verb are resolved to plural, but resolved agreement is impossible for attributive elements like demonstratives.
-What is unattested however, is a language where attributive elements show resolved agreement in this situation, but not on verbs.
+In English, for instance, two singular features on a verb are resolved to plural, but resolved agreement is impossible for nouns.
+What is unattested however, is a language where nouns show resolved agreement in this situation, but not on verbs.
 
 Secondly, we will investigate the various repair strategies that languages take when an element receives conflicting values.
 Such contexts are known to be marked, and require repairs to allow the sentence to be licit.
