@@ -13,7 +13,7 @@ Zheng, Shen. (2019). [A multi-dominance agreement hierarchy](https://www.glossa-
 Smith, Peter. W., Beata Moskal, Katharina Hartmann and Zheng Shen (2017). [Feature Conflicts, Feature Resolution and the structure of *either ... or*](/assets/files/eitherorresolution.pdf). *The Proceedings of SinFonIJA X*
 
 ## Talks & Posters
-Shen, Zheng. (2019). *Two Types of Closest Conjunct Agreement*. Poster to be presented at GLOW in Asia 12 and SICOGG 21. Seoul, South Korea.
+Shen, Zheng. (2019). *Two Types of Closest Conjunct Agreement*. Poster to be presented at GLOW in Asia 12 and SICOGG 21, Seoul, South Korea.
 
 Shen, Zheng, and Peter W. Smith (2018). *Morphological and Semantic Agreement with Multiple Values.* Talk given at Multiple Agreement across Domains 2018, Berlin, Germany.
 
