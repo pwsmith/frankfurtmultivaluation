@@ -8,7 +8,9 @@ Here are manuscripts and slides/handouts of talks.
 
 ## Papers
 
-Smith, Peter. W., Beata Moskal, Katharina Hartmann and Zheng Shen (2017). [Feature Conflicts, Feature Resolution and the structure of *either ... or*](/assets/files/eitherorresolution.pdf). Manuscript, for *The Proceedings of SinFonIJA X*
+Zheng, Shen. (2019). [A multi-dominance agreement hierarchy](https://www.glossa-journal.org/articles/10.5334/gjgl.585/). *Glossa: a journal for general linguistics*. 4(1), 46.
+
+Smith, Peter. W., Beata Moskal, Katharina Hartmann and Zheng Shen (2017). [Feature Conflicts, Feature Resolution and the structure of *either ... or*](/assets/files/eitherorresolution.pdf). *The Proceedings of SinFonIJA X*
 
 ## Talks
 Shen, Zheng, and Peter W. Smith (2018). *Morphological and Semantic Agreement with Multiple Values.* Talk given at Multiple Agreement across Domains 2018, Berlin, Germany.
