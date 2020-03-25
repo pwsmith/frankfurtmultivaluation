@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Workshop: Agreement in Multivaluation Constructions (19-20 Nov 2020)"
+title: "Agreement in Multivaluation Constructions (19-20 Nov 2020)"
 excerpt: "AMC 2020"
 author_profile: true
 ---
