@@ -12,12 +12,12 @@ author_profile: true
 As part of the DFG-funded project 'A General Theory of Multivaluation', the Goethe-Universität Frankfurt am Main will host a workshop 'Agreement in Multivaluation Constructions' on 19-20 November 2020. The project aims to investigate how agreement is determined when there is not a unique controller of agreement, and so the target of agreement obtains features from multiple sources.
 
 ### Invited Speakers:
-- Barbara Citko (University of Washington)
-- Paula Fenger (University of Connecticut/Harvard University)
-- Caroline Heycock (University of Edinburgh)
-- Franc Marušič (University of Nova Gorica)
-- Alan Munn (Michigan State University)
-- Jana Willer-Gold (University College London)
+- [Barbara Citko](http://faculty.washington.edu/bcitko/) (University of Washington)
+- [Paula Fenger](https://sites.google.com/view/paulafenger) (University of Connecticut/Harvard University)
+- [Caroline Heycock](http://www.lel.ed.ac.uk/~heycock/) (University of Edinburgh)
+- [Franc Marušič](http://www.ung.si/~fmarusic/pub/index.html) (University of Nova Gorica)
+- [Alan Munn](https://msu.edu/~amunn/) (Michigan State University)
+- [Jana Willer-Gold](https://sites.google.com/site/willergoldjana/) (University College London)
 
 ### Important dates:
 
@@ -25,7 +25,7 @@ As part of the DFG-funded project 'A General Theory of Multivaluation', the Goet
 - Notification of acceptance: by June 30, 2020
 - Workshop: November 19-20, 2020
 
-### Call for Papers:
+## Call for Papers:
 
 We invite submissions for oral presentations (25 minute talk +10 minutes
 discussion) related to multivaluation constructions. Talks which investigate
