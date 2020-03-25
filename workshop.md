@@ -51,10 +51,6 @@ one single-authored submission and at most one joint-authored submission per
 author.
 
 Please submit anonymized abstracts electronically in PDF format through the
-EasyChair system by May 15, 2020:
+EasyChair(https://easychair.org/conferences/?conf=amc2020) system by ***May 15, 2020***.
 
-https://easychair.org/conferences/?conf=amc2020
-
-Further information on the project can be found here:
-
-https://pwsmith.github.io/multivaluation
+Further information on the project can be found here(https://pwsmith.github.io/multivaluation).
