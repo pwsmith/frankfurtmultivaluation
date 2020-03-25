@@ -5,7 +5,7 @@ excerpt: "AMC 2020"
 author_profile: true
 ---
 
-***Agreement in Multivaluation Constructions (AMC 2020)***
+***Agreement in Multivaluation Constructions***
 
 As part of the DFG-funded project 'A General Theory of Multivaluation', the Goethe-Universität Frankfurt am Main will host a workshop 'Agreement in Multivaluation Constructions' on 19-20 November 2020. The project aims to investigate how agreement is determined when there is not a unique controller of agreement, and so the target of agreement obtains features from multiple sources.
 
