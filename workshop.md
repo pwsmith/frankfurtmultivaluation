@@ -21,7 +21,7 @@ As part of the DFG-funded project 'A General Theory of Multivaluation', the Goet
 
 ### Important dates:
 
-- Deadline for abstract submission: May 15, 2020
+- ***Deadline for abstract submission: May 15, 2020***
 - Notification of acceptance: by June 30, 2020
 - Workshop: November 19-20, 2020
 
