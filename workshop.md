@@ -16,6 +16,7 @@ As part of the DFG-funded project 'A General Theory of Multivaluation', the Goet
 - Jana Willer-Gold (University College London)
 
 ***Call for Papers:***
+
 We invite submissions for oral presentations (25 minute talk +10 minutes
 discussion) related to multivaluation constructions. Talks which investigate
 the following topics are particularly encouraged:
@@ -32,11 +33,13 @@ seq.), and how the Agreement Hierarchy can be modeled.
 6. Experimental work on agreement patterns in multivation constructions.
 
 ***Important dates:***
+
 Deadline for abstract submission: May 15, 2020
 Notification of acceptance: by June 30, 2020
 Workshop: November 19-20, 2020
 
 ***Submission guidelines:***
+
 Abstracts should be at most two pages long, including all data and references,
 on letter-size / A4 paper with 1-inch margins on all sides, and must be set in
 Times New Roman font of at least 11 points. Submissions are limited to at most
