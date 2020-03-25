@@ -34,9 +34,9 @@ seq.), and how the Agreement Hierarchy can be modeled.
 
 ***Important dates:***
 
-Deadline for abstract submission: May 15, 2020
-Notification of acceptance: by June 30, 2020
-Workshop: November 19-20, 2020
+- Deadline for abstract submission: May 15, 2020
+- Notification of acceptance: by June 30, 2020
+- Workshop: November 19-20, 2020
 
 ***Submission guidelines:***
 
@@ -48,7 +48,9 @@ author.
 
 Please submit anonymized abstracts electronically in PDF format through the
 EasyChair system by May 15, 2020:
+
 url: https://easychair.org/conferences/?conf=amc2020
 
 Further information on the project can be found here:
+
 url: https://pwsmith.github.io/multivaluation
