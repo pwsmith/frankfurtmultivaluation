@@ -12,6 +12,8 @@ main:
     url: /coordination/
   - title: "Agreement"
     url: /matches/
+  - title: "Workshop"
+    url: /workshop/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
