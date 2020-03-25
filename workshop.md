@@ -49,8 +49,8 @@ author.
 Please submit anonymized abstracts electronically in PDF format through the
 EasyChair system by May 15, 2020:
 
-url: https://easychair.org/conferences/?conf=amc2020
+https://easychair.org/conferences/?conf=amc2020
 
 Further information on the project can be found here:
 
-url: https://pwsmith.github.io/multivaluation
+https://pwsmith.github.io/multivaluation
