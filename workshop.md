@@ -5,11 +5,13 @@ excerpt: "AMC 2020"
 author_profile: true
 ---
 
-***Agreement in Multivaluation Constructions***
+## Agreement in Multivaluation Constructions
+
+### Description:
 
 As part of the DFG-funded project 'A General Theory of Multivaluation', the Goethe-Universität Frankfurt am Main will host a workshop 'Agreement in Multivaluation Constructions' on 19-20 November 2020. The project aims to investigate how agreement is determined when there is not a unique controller of agreement, and so the target of agreement obtains features from multiple sources.
 
-***Invited Speakers:***
+### Invited Speakers:
 - Barbara Citko (University of Washington)
 - Paula Fenger (University of Connecticut/Harvard University)
 - Caroline Heycock (University of Edinburgh)
@@ -17,7 +19,13 @@ As part of the DFG-funded project 'A General Theory of Multivaluation', the Goet
 - Alan Munn (Michigan State University)
 - Jana Willer-Gold (University College London)
 
-***Call for Papers:***
+### Important dates:
+
+- Deadline for abstract submission: May 15, 2020
+- Notification of acceptance: by June 30, 2020
+- Workshop: November 19-20, 2020
+
+### Call for Papers:
 
 We invite submissions for oral presentations (25 minute talk +10 minutes
 discussion) related to multivaluation constructions. Talks which investigate
@@ -34,13 +42,7 @@ impact on the formulation of the mechanism of agreement.
 seq.), and how the Agreement Hierarchy can be modeled.
 6. Experimental work on agreement patterns in multivation constructions.
 
-***Important dates:***
-
-- Deadline for abstract submission: May 15, 2020
-- Notification of acceptance: by June 30, 2020
-- Workshop: November 19-20, 2020
-
-***Submission guidelines:***
+ ***Submission guidelines:***
 
 Abstracts should be at most two pages long, including all data and references,
 on letter-size / A4 paper with 1-inch margins on all sides, and must be set in
