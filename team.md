@@ -20,13 +20,17 @@ Peter W. Smith is a Wissenschaftlicher Mitarbeiter at the Syntax Chair of Kathar
 
 Katharina Hartmann is Professor of Syntax at the Institut für Linguistik, Goethe-Universität, Frankfurt.
 
-### [Zheng Shen](https://zheng-shen.github.io/)
+### [Anke Himmelreich]
 
 
-![Zheng](/assets/images/zheng.jpg)
+![Anke](/assets/images/anke.jpg)
 {: .logosize }
 
-Zheng Shen is the post-doc for the project, and incorporated into the Syntax Chair of Katharina Hartmann in the Institut für Linguistik, Goethe-Universität, Frankfurt.
+Anke Himmelreich is the post-doc for the project, and incorporated into the Syntax Chair of Katharina Hartmann in the Institut für Linguistik, Goethe-Universität, Frankfurt.
+
+### Melissa Jeckel
+
+Melissa is the student assistant for the project, and MA student of Lingusitics at Goethe-Universität, Frankfurt.
 
 ### Nelly Kezerova
 
@@ -35,6 +39,16 @@ Zheng Shen is the post-doc for the project, and incorporated into the Syntax Cha
 
 
 Nelly is the student assistant for the project, and MA student of Lingusitics at Goethe-Universität, Frankfurt.
+
+## Former Team Members
+
+### [Zheng Shen](https://zheng-shen.github.io/)
+
+
+![Zheng](/assets/images/zheng.jpg)
+{: .logosize }
+
+Zheng Shen is the post-doc for the project, and incorporated into the Syntax Chair of Katharina Hartmann in the Institut für Linguistik, Goethe-Universität, Frankfurt.
 
 ## Associate Members
 
