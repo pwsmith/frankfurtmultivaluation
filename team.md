@@ -48,7 +48,7 @@ Nelly is the student assistant for the project, and MA student of Lingusitics at
 ![Zheng](/assets/images/zheng.jpg)
 {: .logosize }
 
-Zheng Shen is the post-doc for the project, and incorporated into the Syntax Chair of Katharina Hartmann in the Institut für Linguistik, Goethe-Universität, Frankfurt.
+Zheng Shen was the post-doc for the project. He is currently an Assistant Professor at the Department of English Language and Literature, National University of Singapore.
 
 ## Associate Members
 
