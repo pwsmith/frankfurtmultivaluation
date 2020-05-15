@@ -10,9 +10,9 @@ sidebar:
 
 <p>Please choose the language you want to contribute data to. If your language is not in the list, please choose "OTHER".</p>
 
-<form action="" method="">
+<form action="mailto:anke.ass@gmail.com" method="post">
   
-<select name="language" size="1">
+<select name="language-typ" size="1">
   <option>Acadian French</option>
   <option>Achenese</option>
   <option>Acooli</option>
@@ -20,134 +20,12 @@ sidebar:
   <option>Apalaí</option>
   <option>OTHER</option>
 </select>
+
+<p>Please specify which language you want to contribute data to. If you can, please also specify the dialect.</p>
+  
+<input type="text" name="language-nontyp" value="" size="30" maxlength="50"> 
+  
+<input type="Submit" name="send" value="Send">
   
 </form>
 
-<form-builder form="form">
-$rootScope.form = 
-  {
--components: [
-- {
-input: true,
-tableView: true,
-inputType: "text",
-inputMask: "",
-label: "First Name",
-key: "firstName",
-placeholder: "Enter your first name",
-prefix: "",
-suffix: "",
-multiple: false,
-defaultValue: "",
-protected: false,
-unique: false,
-persistent: true,
--validate: {
-required: false,
-minLength: "",
-maxLength: "",
-pattern: "",
-custom: "",
-customPrivate: false
-},
--conditional: {
-show: false,
-when: null,
-eq: ""
-},
-type: "textfield",
-$$hashKey: "object:18",
-autofocus: false,
-hidden: false,
-clearOnHide: true,
-spellcheck: true
-},
-- {
-input: true,
-tableView: true,
-inputType: "text",
-inputMask: "",
-label: "Last Name",
-key: "lastName",
-placeholder: "Enter your last name",
-prefix: "",
-suffix: "",
-multiple: false,
-defaultValue: "",
-protected: false,
-unique: false,
-persistent: true,
--validate: {
-required: false,
-minLength: "",
-maxLength: "",
-pattern: "",
-custom: "",
-customPrivate: false
-},
--conditional: {
-show: false,
-when: null,
-eq: ""
-},
-type: "textfield",
-$$hashKey: "object:19",
-autofocus: false,
-hidden: false,
-clearOnHide: true,
-spellcheck: true
-},
-- {
-input: true,
-tableView: true,
-label: "Message",
-key: "message",
-placeholder: "What do you think?",
-prefix: "",
-suffix: "",
-rows: 3,
-multiple: false,
-defaultValue: "",
-protected: false,
-persistent: true,
--validate: {
-required: false,
-minLength: "",
-maxLength: "",
-pattern: "",
-custom: ""
-},
-type: "textarea",
--conditional: {
-show: false,
-when: null,
-eq: ""
-},
-$$hashKey: "object:20",
-autofocus: false,
-hidden: false,
-wysiwyg: false,
-clearOnHide: true,
-spellcheck: true
-},
-- {
-type: "button",
-theme: "primary",
-disableOnInvalid: true,
-action: "submit",
-block: false,
-rightIcon: "",
-leftIcon: "",
-size: "md",
-key: "submit",
-tableView: false,
-label: "Submit",
-input: true,
-$$hashKey: "object:21",
-autofocus: false
-}
-],
-display: "form",
-page: 0
-}
-</form-builder>
