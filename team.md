@@ -32,14 +32,6 @@ Anke Himmelreich is the post-doc for the project, and incorporated into the Synt
 
 Melissa is the student assistant for the project, and MA student of Lingusitics at Goethe-Universität, Frankfurt.
 
-### Nelly Kezerova
-
-![Nelly](/assets/images/nelly.jpg)
-{: .logosize }
-
-
-Nelly is the student assistant for the project, and MA student of Lingusitics at Goethe-Universität, Frankfurt.
-
 ## Former Team Members
 
 ### [Zheng Shen](https://zheng-shen.github.io/)
@@ -49,6 +41,13 @@ Nelly is the student assistant for the project, and MA student of Lingusitics at
 {: .logosize }
 
 Zheng Shen was the post-doc for the project. He is currently an Assistant Professor at the Department of English Language and Literature, National University of Singapore.
+
+### Nelly Kezerova
+
+![Nelly](/assets/images/nelly.jpg)
+{: .logosize }
+
+Nelly was the student assistant for the project and is currently a PhD student in the Romance department at the Goethe-Universität, Frankfurt.
 
 ## Associate Members
 
