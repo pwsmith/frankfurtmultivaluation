@@ -30,7 +30,7 @@ Anke Himmelreich is the post-doc for the project, and incorporated into the Synt
 
 ### Melissa Jeckel
 
-![Melissa](/assets/images/melissa.jpg)
+![Melissa](/assets/images/melissa.JPG)
 {: .logosize }
 
 Melissa is the student assistant for the project, and MA student of Lingusitics at Goethe-Universität, Frankfurt.
