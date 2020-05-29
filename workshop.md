@@ -9,7 +9,7 @@ author_profile: true
 
 ### Description:
 
-As part of the DFG-funded project 'A General Theory of Multivaluation', the Goethe-Universität Frankfurt am Main will host a workshop 'Agreement in Multivaluation Constructions' on 19-20 November 2020. The project aims to investigate how agreement is determined when there is not a unique controller of agreement, and so the target of agreement obtains features from multiple sources.
+As part of the DFG-funded project 'A General Theory of Multivaluation', the Goethe-Universität Frankfurt am Main will host a workshop 'Agreement in Multivaluation Constructions' on 19-20 May 2021 (postponed due to Covid19). The project aims to investigate how agreement is determined when there is not a unique controller of agreement, and so the target of agreement obtains features from multiple sources.
 
 ### Invited Speakers:
 - [Barbara Citko](http://faculty.washington.edu/bcitko/) (University of Washington)
@@ -21,9 +21,9 @@ As part of the DFG-funded project 'A General Theory of Multivaluation', the Goet
 
 ### Important dates:
 
-- ***Deadline for abstract submission: May 15, 2020***
-- Notification of acceptance: by June 30, 2020
-- Workshop: November 19-20, 2020
+- ***Deadline for abstract submission: November 15, 2020***
+- Notification of acceptance: by December 23, 2020
+- Workshop: May 19-20, 2021
 
 ## Call for Papers:
 
@@ -51,6 +51,6 @@ one single-authored submission and at most one joint-authored submission per
 author.
 
 Please submit anonymized abstracts electronically in PDF format through the
-[EasyChair](https://easychair.org/conferences/?conf=amc2020) system by ***May 15, 2020***.
+[EasyChair](https://easychair.org/conferences/?conf=amc2020) system by ***November 15, 2020***.
 
 Further information on the project can be found [here](https://pwsmith.github.io/multivaluation).
