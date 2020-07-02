@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Workshop: AMC 2020"
-excerpt: "AMC 2020"
+title: "Workshop: AMC 2021"
+excerpt: "AMC 2021"
 author_profile: true
 ---
 
