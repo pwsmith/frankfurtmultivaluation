@@ -16,7 +16,7 @@ As part of the DFG-funded project 'A General Theory of Multivaluation', the Goet
 - [Paula Fenger](https://sites.google.com/view/paulafenger) (University of Connecticut/Harvard University)
 - [Caroline Heycock](http://www.lel.ed.ac.uk/~heycock/) (University of Edinburgh)
 - [Franc Marušič](http://www.ung.si/~fmarusic/pub/index.html) (University of Nova Gorica)
-- [Alan Munn](https://msu.edu/~amunn/) (Michigan State University)
+- [Alan Munn](https://amunn.github.io/) (Michigan State University)
 - [Jana Willer-Gold](https://sites.google.com/site/willergoldjana/) (University College London)
 
 ### Important dates:
