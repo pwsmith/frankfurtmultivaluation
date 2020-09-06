@@ -9,9 +9,20 @@ author_profile: true
 
   <div class="container">
    <div class="table-responsive">
-<!--    <div align="center">
+<div align="center">
+  <p><b>Filters:</b></p>
+  <label for="lang">Language:</label>
+  <select id="lang" name="lang">
+    <option value="ger">German</option>
+    <option value="lge">Low German</option>
+    </select>
+  
+  <label for="langfam">Language Family:</label>
+  <select id="langfam" name="langfam">
+    <option value="ind">Indo-European</option>
+   </select>
      <button type="button" name="load_data" id="load_data" class="btn btn-info">Load Data</button>
-    </div>-->
+    </div>
     <br />
     <div id="language_table">
     </div>
@@ -23,7 +34,7 @@ author_profile: true
 
 <script>
 $(document).ready(function(){
-// $('#load_data').click(function(){
+$('#load_data').click(function(){
   $.ajax({
    url:"https://pwsmith.github.io/multivaluation/language.csv",
    dataType:"text",
@@ -52,7 +63,7 @@ $(document).ready(function(){
     $('#language_table').html(table_data);
    }
   });
-// });
+ });
 
 });
 </script>
