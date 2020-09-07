@@ -1,3 +1,5 @@
-Language Name;ISO-639-3;Language Family;Information;Agreement Features;Word Orders;Coordination Types;Patterns
-German;deu;Indo-European;bla;Person, Number;SV, VS;and, or;Ineffability, Resolved Agreement, CCA, Default
-Low German;lge;Indo-European;blubb;Person, Number;SV, VS;and, or;Ineffability, Resolved Agreement, CCA, Default
+Language Name;Language Family;Agreement Features;Word Orders;Coordination Types;Patterns
+German;Indo-European;Person, Number;SV, VS;and, or;Ineffability, Resolved Agreement, CCA, Default
+Low German;Indo-European;Person, Number;SV, VS;and, or;Ineffability, Resolved Agreement, CCA, Default
+Hubba;Brumm;Person;SV;and;CCA
+Bubba;Brumm;Number;VS;or;Default
