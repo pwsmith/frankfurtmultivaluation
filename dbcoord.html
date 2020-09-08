@@ -160,7 +160,7 @@ $('#load_data').click(function(){
     var sel_patt = patt.options[patt.selectedIndex].value;
 
     var row_data = data.split(/\r?\n|\r/);
-    var table_data = '<table class="table table-bordered table-striped">';
+    var table_data = '<table class="sortable"><thead>';
     //Head Row
     table_data += '<tr>';
     var cell_data = row_data[0].split(",");
@@ -168,7 +168,7 @@ $('#load_data').click(function(){
     {
       table_data += '<th>'+cell_data[cell_count]+'</th>';
     }
-    table_data += '</tr>';
+    table_data += '</tr></thead><tbody>';
     //----------
     //Data Rows
     for(var count = 1; count<row_data.length; count++)
@@ -219,16 +219,16 @@ $('#load_data').click(function(){
 
     }
     //----------
-    table_data += '</table>';
+    table_data += '</tbody></table>';
     if(count_rows > 0)
     {
-      $('#language_table').html(table_data);
+      document.getElementById('language_table').innerHTML = table_data;
       $('input[name=lang]').val('');
     }
     else
     {
       $('#language_table').html("No results found.");
-      
+
       //clears search fields after printing results
       $('input[name=lang]').val('');
       $('input[name=langfam]').val('');
