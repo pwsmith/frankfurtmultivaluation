@@ -223,16 +223,15 @@ $('#load_data').click(function(){
     if(count_rows > 0)
     {
       document.getElementById('language_table').innerHTML = table_data;
-      $('input[name=lang]').val('');
     }
     else
     {
       $('#language_table').html("No results found.");
-
-      //clears search fields after printing results
+    }
+          //clears search fields after printing results
       $('input[name=lang]').val('');
       $('input[name=langfam]').val('');
-    }
+ 
     //$('#language_table').html(sel_feat);
    }
   });
