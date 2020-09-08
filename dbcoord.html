@@ -10,9 +10,8 @@ author_profile: true
   <div class="container">
    <div class="table-responsive">
    <h2>Filters:</h2>
-  
 <div align="center">
-  <style> 
+  <style>
     button {background: transparent;
             font-size: 20px;
             font-weight: bold;
@@ -23,6 +22,7 @@ author_profile: true
             transition-duration: 0.2s;}
     button:hover {background-color: #d59b40;}
   </style>
+
   <table>
   <tr><th><label for="lang">Language:</label></th>
   <th><label for="langfam">Language Family:</label></th>
@@ -31,20 +31,14 @@ author_profile: true
   <th><label for="type">Coordination Type:</label></th>
   <th><label for="patt">Pattern:</label></th></tr>
   <tr>
-  <td><select id="lang" name="lang">
-    <option value="all">Select All</option>
-    <option value="German">German</option>
-    <option value="Low German">Low German</option>
-    <option value="Hubba">Hubba</option>
-    <option value="Bubba">Bubba</option>
-    <option value="Kaugummi">Kaugummi</option>
-    </select></td>
-  <td><select id="langfam" name="langfam">
-    <option value="all">Select All</option>
-    <option value="Indo-European">Indo-European</option>
-    <option value="Brumm">Brumm</option>
-    <option value="Auto">Auto</option>
-   </select></td>
+  <td><input list="langs" name="lang" id="lang" placeholder="Search ...">
+  <datalist id="langs">
+  </datalist>
+  </td>
+  <td><input list="langfams" name="langfam" id="langfam" placeholder="Search ...">
+  <datalist id="langfams">
+  </datalist>
+  </td>
   <td><select id="feat" name="feat">
     <option value="all">Select All</option>
     <option value="Person">Person</option>
@@ -73,7 +67,7 @@ author_profile: true
   </tr>
   </table>
   <br/>
-  <button type="button" name="load_data" id="load_data">Load Data</button>
+     <button type="button" name="load_data" id="load_data" class="btn btn-info">Load Data</button>
     </div>
     <br />
     <div id="language_table">
@@ -85,6 +79,54 @@ author_profile: true
 </html>
 
 <script>
+$.ajax({
+   url:"https://pwsmith.github.io/multivaluation/language.csv",
+   dataType:"text",
+   success:function(data)
+    {
+      //Dynamically add language options and language families from csv-file
+      var langs = document.getElementById("langs");
+      var langfams = document.getElementById("langfams");
+      var row_data = data.split(/\r?\n|\r/);
+      var lang_list = new Array("");
+      var langfam_list = new Array("");
+      for(var count = 1; count<row_data.length; count++)
+       {
+         var cell_data = row_data[count].split(",");
+         var bool_cell_lang = lang_list.includes(cell_data[0]);
+         //adds language if language is not already among the options
+         if(!bool_cell_lang)
+         {
+           lang_list.push(cell_data[0]);
+         }
+         var bool_cell_langfam = langfam_list.includes(cell_data[1]);
+         //adds language family if language family is not already among the options
+         if(!bool_cell_langfam)
+         {
+           langfam_list.push(cell_data[1]);
+         }
+       }
+       //adds all language options alphabetically to html code
+       lang_list.sort();
+       var lang_options = '<option value="Select All">';
+      for(var i = 1; i<lang_list.length; i++)
+      {
+         lang_options += '<option value="'+lang_list[i]+'">';
+      }
+      $('#langs').html(lang_options);
+
+      //adds all language family options alphabetically to html code
+      langfam_list.sort();
+      var langfam_options = '<option value="Select All">';
+      for(var i = 1; i<langfam_list.length; i++)
+      {
+         langfam_options += '<option value="'+langfam_list[i]+'">';
+      }
+      $('#langfams').html(langfam_options);
+    }
+});
+
+
 $(document).ready(function(){
 $('#load_data').click(function(){
   $.ajax({
@@ -95,11 +137,11 @@ $('#load_data').click(function(){
     var count_rows = 0;
     //Get selected language
     var lang = document.getElementById("lang");
-    var sel_lang = lang.options[lang.selectedIndex].value;
+    var sel_lang = lang.value.toString();
 
     //Get selected language family
     var langfam = document.getElementById("langfam");
-    var sel_langfam = langfam.options[langfam.selectedIndex].value;
+    var sel_langfam = langfam.value.toString();
 
     //Get selected agreement feature
     var feat = document.getElementById("feat");
@@ -116,7 +158,6 @@ $('#load_data').click(function(){
     //Get selected pattern
     var patt = document.getElementById("patt");
     var sel_patt = patt.options[patt.selectedIndex].value;
-
 
     var row_data = data.split(/\r?\n|\r/);
     var table_data = '<table class="table table-bordered table-striped">';
@@ -149,11 +190,11 @@ $('#load_data').click(function(){
      var cell_type = cell_data[6];
      var cell_patt = cell_data[7];
      */
-     //$('#language_table').html(sel_langfam);
+     //$('#language_table').html(typeof sel_lang);
 
      //produces line if option is set to Select all or if line contains search term
-     if((sel_lang === "all" || sel_lang == cell_data[0])
-         && (sel_langfam === "all" || sel_langfam == cell_data[1])
+     if((sel_lang === "Select All" || sel_lang === "" || sel_lang == cell_data[0])
+         && (sel_langfam === "Select All" || sel_langfam === "" || sel_langfam == cell_data[1])
          && (sel_feat === "all" || bool_feat)
          && (sel_order === "all" || bool_order)
          && (sel_type === "all" || bool_type)
@@ -182,10 +223,12 @@ $('#load_data').click(function(){
     if(count_rows > 0)
     {
       $('#language_table').html(table_data);
+      $('input[name=lang]').val('');
     }
     else
     {
       $('#language_table').html("No results found.");
+      $('input[name=lang]').val('');
     }
     //$('#language_table').html(sel_feat);
    }
