@@ -76,6 +76,7 @@ author_profile: true
 </html>
 
 <script>
+$(document).ready(function(){
 $.ajax({
    url:"https://pwsmith.github.io/multivaluation/language.csv",
    dataType:"text",
@@ -123,8 +124,6 @@ $.ajax({
     }
 });
 
-
-$(document).ready(function(){
 $('#load_data').click(function(){
   $.ajax({
    url:"https://pwsmith.github.io/multivaluation/language.csv",
