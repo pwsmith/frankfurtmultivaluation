@@ -4,9 +4,7 @@ title: "North Levantine Arabic"
 author_profile: true
 ---
 
-## North Levantine Arabic
-
-### Overview
+## Overview
 
 **Language family**: Afro-Asiatic (Semitic)
 
@@ -21,12 +19,54 @@ author_profile: true
 
 **Coordination types**: and, or
 
-### Patterns for gender
+## Patterns for gender
 
-#### Summary
+### Summary
 
+#### and & SV order: 
 
+Mismatches are resolved to masculine.
 
-### Pattern for person
+1st\\2nd | fem  | masc
+---- | ---- | ----
+fem  | fem  | masc
+masc | masc | masc
 
-### Pattern for number
+**Examples**
+
+(1) a. el-rrijal w el-marra ʕam y-erkud-u
+
+       the-man and the-woman PROG 3-run-pl
+       
+       "The man and the woman are running."
+
+#### and & VS order 
+
+Mismatches are resolved to masculine.
+
+1st\\2nd | fem  | masc
+---- | ---- | ----
+fem  | fem  | masc
+masc | masc | masc
+
+#### or & SV order 
+
+Mismatches are resolved to masculine.
+
+1st\\2nd | fem  | masc
+---- | ---- | ----
+fem  | fem  | masc
+masc | masc | masc
+
+#### or & VS order
+
+Mismatches are resolved to masculine.
+
+1st\\2nd | fem  | masc
+---- | ---- | ----
+fem  | fem  | masc
+masc | masc | masc
+
+## Pattern for person
+
+## Pattern for number
