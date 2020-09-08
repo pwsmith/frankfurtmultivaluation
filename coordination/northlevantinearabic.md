@@ -9,11 +9,16 @@ author_profile: true
 ### Overview
 
 **Language family**: Afro-Asiatic (Semitic)
+
 **Countries**: Lebanon, Syria, Turkey
+
 **Number of speakers**: 24.6 million
 
+
 **Agreement features**: gender, number, person
+
 **Possible Word Orders**: SV, VS
+
 **Coordination Types**: and, or
 
 ### Pattern for gender/SV/and
