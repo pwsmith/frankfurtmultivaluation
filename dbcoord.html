@@ -228,7 +228,10 @@ $('#load_data').click(function(){
     else
     {
       $('#language_table').html("No results found.");
+      
+      //clears search fields after printing results
       $('input[name=lang]').val('');
+      $('input[name=langfam]').val('');
     }
     //$('#language_table').html(sel_feat);
    }
