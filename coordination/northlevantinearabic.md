@@ -23,7 +23,7 @@ author_profile: true
 
 ### Summary
 
-#### and & SV order: 
+**and & SV order**
 
 Mismatches are resolved to masculine.
 
@@ -40,7 +40,7 @@ masc | masc | masc
        
        "The man and the woman are running."
 
-#### and & VS order 
+**and & VS order**
 
 Mismatches are resolved to masculine.
 
@@ -49,7 +49,7 @@ Mismatches are resolved to masculine.
 fem  | fem  | masc
 masc | masc | masc
 
-#### or & SV order 
+**or & SV order**
 
 Mismatches are resolved to masculine.
 
@@ -58,7 +58,7 @@ Mismatches are resolved to masculine.
 fem  | fem  | masc
 masc | masc | masc
 
-#### or & VS order
+**or & VS order**
 
 Mismatches are resolved to masculine.
 
