@@ -17,9 +17,16 @@ author_profile: true
 
 **Agreement features**: gender, number, person
 
-**Possible Word Orders**: SV, VS
+**Possible word orders**: SV, VS
 
-**Coordination Types**: and, or
+**Coordination types**: and, or
 
-### Pattern for gender/SV/and
+### Patterns for gender
 
+#### Summary
+
+
+
+### Pattern for person
+
+### Pattern for number
