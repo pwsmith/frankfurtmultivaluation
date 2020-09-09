@@ -7,6 +7,13 @@
 });
 
 $('.pattern td').css({
-     "border": "1px solid #c77900",
+     "border": "1px solid",
+     "border-color": "#c77900",
+     "border-collapse": "collapse"
+});
+
+$('.pattern').css({
+     "border": "1px solid",
+     "border-color": "#c77900",
      "border-collapse": "collapse"
 });
