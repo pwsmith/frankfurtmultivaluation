@@ -99,19 +99,22 @@ $.ajax({
        {
          var cell_data = row_data[count].split(",");
          var bool_cell_lang = lang_list.includes(cell_data[0]);
+         
          //adds language if language is not already among the options
          if(!bool_cell_lang)
          {
            lang_list.push(cell_data[0]);
          }
          var bool_cell_langfam = langfam_list.includes(cell_data[1]);
+         
          //adds language family if language family is not already among the options
          if(!bool_cell_langfam)
          {
            langfam_list.push(cell_data[1]);
          }
        }
-       //adds all language options alphabetically to html code
+       
+      //adds all language options alphabetically to html code
        lang_list.sort();
        var lang_options = '<option value="Select All">';
       for(var i = 1; i<lang_list.length; i++)
@@ -123,7 +126,7 @@ $.ajax({
       //adds all language family options alphabetically to html code
       langfam_list.sort();
       var langfam_options = '<option value="Select All">';
-      for(var i = 1; i<langfam_list.length; i++)
+      for(var i = 1; i<langfam_list.length-1; i++)
       {
          langfam_options += '<option value="'+langfam_list[i]+'">';
       }
