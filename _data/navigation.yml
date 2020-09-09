@@ -116,3 +116,7 @@ coordination:
   #      url: /coordination/uralic/Finnish
   #- title: "Austronesian"
   #  url: /coordination/austronesian
+  
+  languages:
+  - title: "Database"
+    url: /dbcoord/
