@@ -31,7 +31,7 @@ languages:
   - title: "All Languages"
     children:
     - title: "North Levantine Arabic"
-      url: /northlevantinearabic/  
+      url: /coordination/northlevantinearabic/  
   
 coordination:
   - title: "Language Families"
