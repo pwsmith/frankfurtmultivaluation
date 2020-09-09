@@ -28,7 +28,7 @@ languages:
     url: /dbcoord/
   - title: "Questionnaire"
     url: /formcoordination/  
-  - title: "Languages"
+  - title: "All Languages"
     children:
     -title: "North Levantine Arabic"
      url: /northlevantinearabic/  
