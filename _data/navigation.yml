@@ -24,6 +24,8 @@ main:
   #   url: /sitemap/
 
 coordination:
+  - title: "Back to Database"
+    url: /dbcoord/
   - title: "Language Families"
     children:
     - title: "Afro-Asiatic"
@@ -114,11 +116,3 @@ coordination:
   #      url: /coordination/uralic/Finnish
   #- title: "Austronesian"
   #  url: /coordination/austronesian
-
-languages:
-  - title: "Back to Database"
-    url: /dbcoord/
-  - title: "Languages"
-    children:
-    -title: "North Levantine Arabic"
-     url: /coordination/northlevantinearabic/
