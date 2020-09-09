@@ -3,6 +3,10 @@
 });
 
   $('.example td, tr').css({
+     "border": "0"
+});
+
+$('.example').css({
      "border": "0",
-    "width": "100%"
+     "width": "100%"
 });
