@@ -28,6 +28,13 @@ languages:
     url: /dbcoord/
   - title: "Questionnaire"
     url: /formcoordination/  
+  - title: "Languages"
+    children:
+    -title: "North Levantine Arabic"
+     url: /northlevantinearabic/  
+     # -title: "German"
+     #  url: /coordination/german/
+
   
 coordination:
   - title: "Language Families"
