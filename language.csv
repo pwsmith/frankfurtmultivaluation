@@ -1,7 +1,9 @@
 Language Name,Language Family,Agreement Features,Word Orders,Coordination Types,Patterns
-German,Indo-European,Person/Number,SV/VS,and/or,Ineffability/Resolved/CCA/Default
-Low German,Indo-European,Person/Number,SV/VS,and/or,Ineffability/Resolved/CCA/Default
 North Levantine Arabic,Afro-Asiatic,Gender,SV,and,Resolved Agreement
 North Levantine Arabic,Afro-Asiatic,Gender,SV,or,Resolved Agreement
 North Levantine Arabic,Afro-Asiatic,Gender,VS,and,Resolved Agreement
 North Levantine Arabic,Afro-Asiatic,Gender,VS,or,Resolved Agreement
+North Levantine Arabic,Afro-Asiatic,Number,SV,and,Resolved Agreement
+North Levantine Arabic,Afro-Asiatic,Number,SV,or,Resolved Agreement
+North Levantine Arabic,Afro-Asiatic,Number,VS,and,Resolved Agreement
+North Levantine Arabic,Afro-Asiatic,Number,VS,or,Closest Conjunct Agreement
