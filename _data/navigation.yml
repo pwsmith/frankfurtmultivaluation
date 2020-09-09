@@ -117,8 +117,8 @@ coordination:
 
 languages:
   - title: "Back to Database"
-    url: /dbcoord
+    url: /dbcoord/
   - title: "Languages"
     children:
     -title: "North Levantine Arabic"
-     url: /coordination/northlevantinearabic
+     url: /coordination/northlevantinearabic/
