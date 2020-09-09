@@ -115,4 +115,10 @@ coordination:
   #- title: "Austronesian"
   #  url: /coordination/austronesian
 
-
+languages:
+  - title: "Back to Database"
+    url: /dbcoord
+  - title: "Languages"
+    children:
+    -title: "North Levantine Arabic"
+     url: /coordination/northlevantinearabic
