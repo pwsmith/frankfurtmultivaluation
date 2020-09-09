@@ -17,3 +17,7 @@ $('.pattern').css({
      "border-color": "#C77900",
      "border-collapse": "collapse"
 });
+
+$('.right').css({
+     "text-align": "right"
+});
