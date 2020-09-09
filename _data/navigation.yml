@@ -30,7 +30,7 @@ languages:
     url: /formcoordination/  
   - title: "All Languages"
     children:
-    -title: "North Levantine Arabic"
+    - title: "North Levantine Arabic"
      url: /northlevantinearabic/  
      # -title: "German"
      #  url: /coordination/german/
