@@ -32,6 +32,8 @@ languages:
     children:
     -title: "North Levantine Arabic"
      url: /coordination/northlevantinearabic/  
+     # -title: "German"
+     #  url: /coordination/german/
 
 coordination:
   - title: "Language Families"
