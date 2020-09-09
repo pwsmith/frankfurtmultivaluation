@@ -24,7 +24,7 @@ main:
   #   url: /sitemap/
 
 coordination:
-  - title: "Back to Database"
+  - title: "Database"
     url: /dbcoord/
   - title: "Language Families"
     children:
