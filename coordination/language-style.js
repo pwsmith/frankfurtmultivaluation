@@ -5,3 +5,8 @@
   $('.example td, tr').css({
      "border": "0"
 });
+
+$('.pattern td').css({
+     "border": "1px solid",
+     "border-collapse": "collapse"
+});
