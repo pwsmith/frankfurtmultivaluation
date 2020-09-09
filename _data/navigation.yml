@@ -22,6 +22,10 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  
+languages:
+  - title: "Database"
+    url: /dbcoord/
 
 coordination:
   - title: "Database"
@@ -116,7 +120,3 @@ coordination:
   #      url: /coordination/uralic/Finnish
   #- title: "Austronesian"
   #  url: /coordination/austronesian
-  
-  languages:
-  - title: "Database"
-    url: /dbcoord/
