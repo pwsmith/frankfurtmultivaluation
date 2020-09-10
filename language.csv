@@ -1,4 +1,12 @@
 Language Name,Language Family,Agreement Features,Word Orders,Coordination Types,Patterns
+Low German,Indo-European,Number,SV,and,Resolved Agreement
+Low German,Indo-European,Number,SV,or,Resolved Agreement
+Low German,Indo-European,Number,VS,and,Resolved Agreement
+Low German,Indo-European,Number,VS,or,Closest Conjunct Agreement
+Low German,Indo-European,Person,SV,and,Resolved Agreement
+Low German,Indo-European,Person,SV,or,Resolved Agreement
+Low German,Indo-European,Person,VS,and,Resolved Agreement
+Low German,Indo-European,Person,VS,or,Resolved Agreement
 North Levantine Arabic,Afro-Asiatic,Gender,SV,and,Resolved Agreement
 North Levantine Arabic,Afro-Asiatic,Gender,SV,or,Resolved Agreement
 North Levantine Arabic,Afro-Asiatic,Gender,VS,and,Resolved Agreement
@@ -11,3 +19,11 @@ North Levantine Arabic,Afro-Asiatic,Person,SV,and,Resolved Agreement
 North Levantine Arabic,Afro-Asiatic,Person,SV,or,Resolved Agreement
 North Levantine Arabic,Afro-Asiatic,Person,VS,and,Closest Conjunct Agreement
 North Levantine Arabic,Afro-Asiatic,Person,VS,or,Closest Conjunct Agreement
+Turkish,Turkic,Number,SV,and,Resolved Agreement
+Turkish,Turkic,Number,SV,or,Resolved Agreement
+Turkish,Turkic,Number,VS,and,Resolved Agreement
+Turkish,Turkic,Number,VS,or,Closest Conjunct Agreement
+Turkish,Turkic,Person,SV,and,Resolved Agreement
+Turkish,Turkic,Person,SV,or,Resolved Agreement
+Turkish,Turkic,Person,VS,and,Resolved Agreement/Closest Conjunct Agreement
+Turkish,Turkic,Person,VS,or,Resolved Agreement/Closest Conjunct Agreement
