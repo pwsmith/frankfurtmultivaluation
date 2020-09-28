@@ -31,7 +31,9 @@ languages:
   - title: "All Languages"
     children:
     - title: "Low German"
-      url: /coordination/lowgerman/  
+      url: /coordination/lowgerman/
+    - title: "Modern Standard Arabic"
+      url: /coordination/modernstandardarabic/  
     - title: "North Levantine Arabic"
       url: /coordination/northlevantinearabic/  
     - title: "Turkish"
