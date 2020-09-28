@@ -38,6 +38,8 @@ languages:
       url: /coordination/turkish/  
     - title: "Ukranian"
       url: /coordination/ukranian/
+    - title: "Venetian"
+      url: /coordination/venetian/  
   
 coordination:
   - title: "Language Families"
