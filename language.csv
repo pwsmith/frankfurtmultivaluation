@@ -53,8 +53,8 @@ Turkish,Turkic,Person,SV,and,Resolved Agreement/Closest Conjunct Agreement
 Turkish,Turkic,Person,SV,or,Resolved Agreement/Closest Conjunct Agreement
 Turkish,Turkic,Person,VS,and,Resolved Agreement/Closest Conjunct Agreement
 Turkish,Turkic,Person,VS,or,Resolved Agreement
-Ukranian,Indo-European,SV,Number,and,Resolved Agreement
-Ukranian,Indo-European,SV,Number,or,Resolved Agreement
-Ukranian,Indo-European,SV,Person,and,Resolved Agreement
-Ukranian,Indo-European,SV,Person,or,Resolved Agreement/Closest Conjunct Agreement
-Venetian,Indo-European,SV,Person,and,Resolved Agreement
+Ukranian,Indo-European,Number,SV,and,Resolved Agreement
+Ukranian,Indo-European,Number,SV,or,Resolved Agreement
+Ukranian,Indo-European,Person,SV,and,Resolved Agreement
+Ukranian,Indo-European,Person,SV,or,Resolved Agreement/Closest Conjunct Agreement
+Venetian,Indo-European,Person,SV,and,Resolved Agreement
