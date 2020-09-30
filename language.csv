@@ -45,6 +45,13 @@ North Levantine Arabic,Afro-Asiatic,Person,SV,and,Resolved Agreement
 North Levantine Arabic,Afro-Asiatic,Person,SV,or,Resolved Agreement
 North Levantine Arabic,Afro-Asiatic,Person,VS,and,Closest Conjunct Agreement
 North Levantine Arabic,Afro-Asiatic,Person,VS,or,Closest Conjunct Agreement
+Persian,Indo-European,Number,SV,and,Resolved Agreement
+Persian,Indo-European,Number,SV,or,Resolved Agreement
+Persian,Indo-European,Person,SV,and,Resolved Agreement
+Persian,Indo-European,Person,SV,or,Resolved Agreement
+Russian,Indo-European,Number,SV,and,Resolved Agreement
+Russian,Indo-European,Number,SV,or,Resolved Agreement
+Russian,Indo-European,Person,SV,or,Closest Conjunct Agreement
 Turkish,Turkic,Number,SV,and,Resolved Agreement
 Turkish,Turkic,Number,SV,or,Resolved Agreement
 Turkish,Turkic,Number,VS,and,Resolved Agreement
