@@ -1,20 +1,36 @@
 Language Name,Language Family,Agreement Features,Word Orders,Coordination Types,Patterns
+Catalan,Indo-European,Number,SV,and,Resolved Agreement
+Catalan,Indo-European,Number,SV,or,Resolved Agreement
+Catalan,Indo-European,Person,SV,and,Resolved Agreement
+Catalan,Indo-European,Person,SV,or,Resolved Agreement
+Hebrew,Afro-Asiatic,Gender,SV,and,Resolved Agreement
+Hebrew,Afro-Asiatic,Gender,VS,and,Resolved Agreement
+Hebrew,Afro-Asiatic,Gender,SV,or,Resolved Agreement
+Hebrew,Afro-Asiatic,Gender,VS,or,Resolved Agreement
+Hebrew,Afro-Asiatic,Number,SV,and,Resolved Agreement
+Hebrew,Afro-Asiatic,Number,VS,and,Resolved Agreement
+Hebrew,Afro-Asiatic,Number,SV,or,Resolved Agreement
+Hebrew,Afro-Asiatic,Number,VS,or,Resolved Agreement
+Hebrew,Afro-Asiatic,Person,SV,and,Resolved Agreement
+Hebrew,Afro-Asiatic,Person,VS,and,Resolved Agreement/Ineffability
+Hebrew,Afro-Asiatic,Person,SV,or,Resolved Agreement
+Hebrew,Afro-Asiatic,Person,VS,or,Resolved Agreement/Ineffability
 Low German,Indo-European,Number,SV,and,Resolved Agreement
 Low German,Indo-European,Number,SV,or,Resolved Agreement
-Low German,Indo-European,Number,VS,and,Resolved Agreement
+Low German,Indo-European,Number,VS,and,Closest Conjunct Agreement
 Low German,Indo-European,Number,VS,or,Closest Conjunct Agreement
 Low German,Indo-European,Person,SV,and,Resolved Agreement
 Low German,Indo-European,Person,SV,or,Resolved Agreement
-Low German,Indo-European,Person,VS,and,Resolved Agreement
-Low German,Indo-European,Person,VS,or,Resolved Agreement
+Low German,Indo-European,Person,VS,and,Closest Conjunct Agreement
+Low German,Indo-European,Person,VS,or,Closest Conjunct Agreement
 Modern Standard Arabic,Afro-Asiatic,Gender,SV,and,Resolved Agreement
 Modern Standard Arabic,Afro-Asiatic,Gender,VS,and,Closest Conjunct Agreement
 Modern Standard Arabic,Afro-Asiatic,Gender,SV,or,Resolved Agreement
-Modern Standard Arabic,Afro-Asiatic,Gender,VS,or,Resolved Agreement
+Modern Standard Arabic,Afro-Asiatic,Gender,VS,or,Closest Conjunct Agreement
 Modern Standard Arabic,Afro-Asiatic,Number,SV,and,Resolved Agreement
-Modern Standard Arabic,Afro-Asiatic,Number,VS,and,Resolved Agreement
+Modern Standard Arabic,Afro-Asiatic,Number,VS,and,Default Agreement
 Modern Standard Arabic,Afro-Asiatic,Number,SV,or,Resolved Agreement
-Modern Standard Arabic,Afro-Asiatic,Number,VS,or,Resolved Agreement
+Modern Standard Arabic,Afro-Asiatic,Number,VS,or,Default Agreement
 Modern Standard Arabic,Afro-Asiatic,Person,SV,and,Resolved Agreement
 Modern Standard Arabic,Afro-Asiatic,Person,SV,or,Resolved Agreement
 North Levantine Arabic,Afro-Asiatic,Gender,SV,and,Resolved Agreement
@@ -33,10 +49,10 @@ Turkish,Turkic,Number,SV,and,Resolved Agreement
 Turkish,Turkic,Number,SV,or,Resolved Agreement
 Turkish,Turkic,Number,VS,and,Resolved Agreement
 Turkish,Turkic,Number,VS,or,Closest Conjunct Agreement
-Turkish,Turkic,Person,SV,and,Resolved Agreement
-Turkish,Turkic,Person,SV,or,Resolved Agreement
+Turkish,Turkic,Person,SV,and,Resolved Agreement/Closest Conjunct Agreement
+Turkish,Turkic,Person,SV,or,Resolved Agreement/Closest Conjunct Agreement
 Turkish,Turkic,Person,VS,and,Resolved Agreement/Closest Conjunct Agreement
-Turkish,Turkic,Person,VS,or,Resolved Agreement/Closest Conjunct Agreement
+Turkish,Turkic,Person,VS,or,Resolved Agreement
 Ukranian,Indo-European,SV,Number,and,Resolved Agreement
 Ukranian,Indo-European,SV,Number,or,Resolved Agreement
 Ukranian,Indo-European,SV,Person,and,Resolved Agreement
