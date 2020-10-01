@@ -1,4 +1,12 @@
 Language Name,Language Family,Agreement Features,Word Orders,Coordination Types,Patterns
+Bosnian-Croation-Montenegrin-Serbian,Indo-European,Number,SV,and,Resolved Agreement
+Bosnian-Croation-Montenegrin-Serbian,Indo-European,Number,SV,or,Resolved Agreement
+Bosnian-Croation-Montenegrin-Serbian,Indo-European,Person,SV,and,Resolved Agreement
+Bosnian-Croation-Montenegrin-Serbian,Indo-European,Person,SV,or,Resolved Agreement/Closest Conjunct Agreement
+Bulgarian,Indo-European,Number,SV,and,Resolved Agreement
+Bulgarian,Indo-European,Number,SV,or,Closest Conjunct Agreement
+Bulgarian,Indo-European,Person,SV,and,Closest Conjunct Agreement
+Bulgarian,Indo-European,Person,SV,or,Closest Conjunct Agreement
 Catalan,Indo-European,Number,SV,and,Resolved Agreement
 Catalan,Indo-European,Number,SV,or,Resolved Agreement
 Catalan,Indo-European,Person,SV,and,Resolved Agreement
@@ -49,13 +57,13 @@ Persian,Indo-European,Number,SV,and,Resolved Agreement
 Persian,Indo-European,Number,SV,or,Resolved Agreement
 Persian,Indo-European,Person,SV,and,Resolved Agreement
 Persian,Indo-European,Person,SV,or,Resolved Agreement
+Polish,Indo-European,Number,SV,and,Resolved Agreement
+Polish,Indo-European,Number,SV,or,Resolved Agreement
+Polish,Indo-European,Person,SV,and,Resolved Agreement
+Polish,Indo-European,Person,SV,or,Resolved Agreement
 Russian,Indo-European,Number,SV,and,Resolved Agreement
 Russian,Indo-European,Number,SV,or,Resolved Agreement
 Russian,Indo-European,Person,SV,or,Closest Conjunct Agreement
-Serbian,Indo-European,Number,SV,and,Resolved Agreement
-Serbian,Indo-European,Number,SV,or,Resolved Agreement
-Serbian,Indo-European,Person,SV,and,Resolved Agreement
-Serbian,Indo-European,Person,SV,or,Resolved Agreement/Closest Conjunct Agreement
 Turkish,Turkic,Number,SV,and,Resolved Agreement
 Turkish,Turkic,Number,SV,or,Resolved Agreement
 Turkish,Turkic,Number,VS,and,Resolved Agreement
