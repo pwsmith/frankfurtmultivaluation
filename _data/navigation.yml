@@ -32,6 +32,8 @@ languages:
     children:
     - title: "Bosnian-Croatian-Montenegrin-Serbian"
       url: /coordination/bosnian-croatian-montenegrin-serbian/
+    - title: "Bulgarian"
+      url: /coordination/bulgarian/
     - title: "Catalan"
       url: /coordination/catalan/
     - title: "Hebrew"
