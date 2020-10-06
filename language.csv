@@ -1,4 +1,30 @@
 Language Name,Language Family,Agreement Features,Word Orders,Coordination Types,Patterns
+Arabic (Modern Standard),Afro-Asiatic,Gender,SV,and,Resolved Agreement
+Arabic (Modern Standard),Afro-Asiatic,Gender,VS,and,Closest Conjunct Agreement
+Arabic (Modern Standard),Afro-Asiatic,Gender,SV,or,Resolved Agreement
+Arabic (Modern Standard),Afro-Asiatic,Gender,VS,or,Closest Conjunct Agreement
+Arabic (Modern Standard),Afro-Asiatic,Number,SV,and,Resolved Agreement
+Arabic (Modern Standard),Afro-Asiatic,Number,VS,and,Default Agreement
+Arabic (Modern Standard),Afro-Asiatic,Number,SV,or,Resolved Agreement
+Arabic (Modern Standard),Afro-Asiatic,Number,VS,or,Default Agreement
+Arabic (Modern Standard),Afro-Asiatic,Person,SV,and,Resolved Agreement
+Arabic (Modern Standard),Afro-Asiatic,Person,SV,or,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Gender,SV,and,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Gender,SV,or,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Gender,VS,and,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Gender,VS,or,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Number,SV,and,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Number,SV,or,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Number,VS,and,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Number,VS,or,Closest Conjunct Agreement
+Arabic (North Levantine),Afro-Asiatic,Person,SV,and,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Person,SV,or,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Person,VS,and,Closest Conjunct Agreement
+Arabic (North Levantine),Afro-Asiatic,Person,VS,or,Closest Conjunct Agreement
+Basque,Isolate,Number,SV,and,Resolved Agreement
+Basque,Isolate,Number,SV,or,Resolved Agreement
+Basque,Isolate,Person,SV,and,Resolved Agreement
+Basque,Isolate,Person,SV,or,Resolved Agreement
 Bosnian-Croatian-Montenegrin-Serbian,Indo-European,Number,SV,and,Resolved Agreement
 Bosnian-Croatian-Montenegrin-Serbian,Indo-European,Number,SV,or,Resolved Agreement
 Bosnian-Croatian-Montenegrin-Serbian,Indo-European,Person,SV,and,Resolved Agreement
@@ -11,6 +37,29 @@ Catalan,Indo-European,Number,SV,and,Resolved Agreement
 Catalan,Indo-European,Number,SV,or,Resolved Agreement
 Catalan,Indo-European,Person,SV,and,Resolved Agreement
 Catalan,Indo-European,Person,SV,or,Resolved Agreement
+Chacobo,Panoan,Number,SV,and,Resolved Agreement
+Chacobo,Panoan,Number,VS,and,Resolved Agreement
+Chacobo,Panoan,Person,SV,and,Resolved Agreement
+Estonian,Uralic,Number,SV,and,Resolved Agreement
+Estonian,Uralic,Number,SV,or,Resolved Agreement
+Estonian,Uralic,Person,SV,and,Resolved Agreement
+Estonian,Uralic,Person,SV,or,Ineffability
+Friulian,Indo-European,Number,SV,and,Resolved Agreement
+Friulian,Indo-European,Number,SV,or,Resolved Agreement
+Friulian,Indo-European,Person,SV,and,Resolved Agreement
+Friulian,Indo-European,Person,SV,or,Resolved Agreement
+German (Palatine),Indo-European,Number,SV,and,Resolved Agreement
+German (Palatine),Indo-European,Number,SV,or,Resolved Agreement
+German (Palatine),Indo-European,Person,SV,and,Resolved Agreement
+German (Palatine),Indo-European,Person,SV,or,Resolved Agreement
+German (Standard),Indo-European,Number,SV,and,Resolved Agreement
+German (Standard),Indo-European,Number,SV,or,Resolved Agreement
+German (Standard),Indo-European,Person,SV,and,Resolved Agreement
+German (Standard),Indo-European,Person,SV,or,Resolved Agreement
+Greek (Modern),Indo-European,Number,SV,and,Resolved Agreement
+Greek (Modern),Indo-European,Number,SV,or,Closest Conjunct Agreement
+Greek (Modern),Indo-European,Person,SV,and,Resolved Agreement
+Greek (Modern),Indo-European,Person,SV,or,Resolved Agreement/Closest Conjunct Agreement
 Hebrew,Afro-Asiatic,Gender,SV,and,Resolved Agreement
 Hebrew,Afro-Asiatic,Gender,VS,and,Resolved Agreement
 Hebrew,Afro-Asiatic,Gender,SV,or,Resolved Agreement
@@ -23,6 +72,10 @@ Hebrew,Afro-Asiatic,Person,SV,and,Resolved Agreement
 Hebrew,Afro-Asiatic,Person,VS,and,Resolved Agreement/Ineffability
 Hebrew,Afro-Asiatic,Person,SV,or,Resolved Agreement
 Hebrew,Afro-Asiatic,Person,VS,or,Resolved Agreement/Ineffability
+Italian,Indo-European,Number,SV,and,Resolved Agreement
+Italian,Indo-European,Number,SV,or,Resolved Agreement
+Italian,Indo-European,Person,SV,and,Resolved Agreement
+Italian,Indo-European,Person,SV,or,Resolved Agreement
 Low German,Indo-European,Number,SV,and,Resolved Agreement
 Low German,Indo-European,Number,SV,or,Resolved Agreement
 Low German,Indo-European,Number,VS,and,Closest Conjunct Agreement
@@ -31,39 +84,33 @@ Low German,Indo-European,Person,SV,and,Resolved Agreement
 Low German,Indo-European,Person,SV,or,Resolved Agreement
 Low German,Indo-European,Person,VS,and,Closest Conjunct Agreement
 Low German,Indo-European,Person,VS,or,Closest Conjunct Agreement
-Modern Standard Arabic,Afro-Asiatic,Gender,SV,and,Resolved Agreement
-Modern Standard Arabic,Afro-Asiatic,Gender,VS,and,Closest Conjunct Agreement
-Modern Standard Arabic,Afro-Asiatic,Gender,SV,or,Resolved Agreement
-Modern Standard Arabic,Afro-Asiatic,Gender,VS,or,Closest Conjunct Agreement
-Modern Standard Arabic,Afro-Asiatic,Number,SV,and,Resolved Agreement
-Modern Standard Arabic,Afro-Asiatic,Number,VS,and,Default Agreement
-Modern Standard Arabic,Afro-Asiatic,Number,SV,or,Resolved Agreement
-Modern Standard Arabic,Afro-Asiatic,Number,VS,or,Default Agreement
-Modern Standard Arabic,Afro-Asiatic,Person,SV,and,Resolved Agreement
-Modern Standard Arabic,Afro-Asiatic,Person,SV,or,Resolved Agreement
-North Levantine Arabic,Afro-Asiatic,Gender,SV,and,Resolved Agreement
-North Levantine Arabic,Afro-Asiatic,Gender,SV,or,Resolved Agreement
-North Levantine Arabic,Afro-Asiatic,Gender,VS,and,Resolved Agreement
-North Levantine Arabic,Afro-Asiatic,Gender,VS,or,Resolved Agreement
-North Levantine Arabic,Afro-Asiatic,Number,SV,and,Resolved Agreement
-North Levantine Arabic,Afro-Asiatic,Number,SV,or,Resolved Agreement
-North Levantine Arabic,Afro-Asiatic,Number,VS,and,Resolved Agreement
-North Levantine Arabic,Afro-Asiatic,Number,VS,or,Closest Conjunct Agreement
-North Levantine Arabic,Afro-Asiatic,Person,SV,and,Resolved Agreement
-North Levantine Arabic,Afro-Asiatic,Person,SV,or,Resolved Agreement
-North Levantine Arabic,Afro-Asiatic,Person,VS,and,Closest Conjunct Agreement
-North Levantine Arabic,Afro-Asiatic,Person,VS,or,Closest Conjunct Agreement
+Mussau-Emira,Austronesian,Number,SV,and,Resolved Agreement
+Mussau-Emira,Austronesian,Person,SV,and,Ineffability
 Persian,Indo-European,Number,SV,and,Resolved Agreement
 Persian,Indo-European,Number,SV,or,Resolved Agreement
 Persian,Indo-European,Person,SV,and,Resolved Agreement
 Persian,Indo-European,Person,SV,or,Resolved Agreement
+Persian (Standard),Indo-European,Number,SV,and,Resolved Agreement
+Persian (Standard),Indo-European,Number,SV,or,Resolved Agreement
+Persian (Standard),Indo-European,Person,SV,and,Resolved Agreement
+Persian (Standard),Indo-European,Person,SV,or,Resolved Agreement
 Polish,Indo-European,Number,SV,and,Resolved Agreement
 Polish,Indo-European,Number,SV,or,Resolved Agreement
 Polish,Indo-European,Person,SV,and,Resolved Agreement
 Polish,Indo-European,Person,SV,or,Resolved Agreement
 Russian,Indo-European,Number,SV,and,Resolved Agreement
 Russian,Indo-European,Number,SV,or,Resolved Agreement
+Russian,Indo-European,Person,SV,and,Resolved Agreement/Ineffability
 Russian,Indo-European,Person,SV,or,Closest Conjunct Agreement
+Sicilian,Indo-European,Number,SV,and,Resolved Agreement
+Sicilian,Indo-European,Number,SV,or,Resolved Agreement
+Sicilian,Indo-European,Person,SV,and,Resolved Agreement
+Sicilian,Indo-European,Person,SV,or,Resolved Agreement
+Somali,Afro-Asiatic,Gender,SV,or,Resolved Agreement/Default Agreement
+Somali,Afro-Asiatic,Number,SV,and,Resolved Agreement
+Somali,Afro-Asiatic,Number,SV,or,Resolved Agreement/Default Agreement
+Somali,Afro-Asiatic,Person,SV,and,Resolved Agreement
+Somali,Afro-Asiatic,Person,SV,or,Resolved Agreement/Default Agreement
 Turkish,Turkic,Number,SV,and,Resolved Agreement
 Turkish,Turkic,Number,SV,or,Resolved Agreement
 Turkish,Turkic,Number,VS,and,Resolved Agreement
@@ -75,5 +122,5 @@ Turkish,Turkic,Person,VS,or,Resolved Agreement
 Ukranian,Indo-European,Number,SV,and,Resolved Agreement
 Ukranian,Indo-European,Number,SV,or,Resolved Agreement
 Ukranian,Indo-European,Person,SV,and,Resolved Agreement
-Ukranian,Indo-European,Person,SV,or,Resolved Agreement/Closest Conjunct Agreement
+Ukranian,Indo-European,Person,SV,or,Resolved Agreement/Ineffability
 Venetian,Indo-European,Person,SV,and,Resolved Agreement
