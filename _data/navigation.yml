@@ -30,26 +30,50 @@ languages:
     url: /formcoordination/  
   - title: "All Languages"
     children:
+    - title: "Arabic (Modern Standard)"
+      url: /coordination/modernstandardarabic/  
+    - title: "Arabic (North Levantine)"
+      url: /coordination/northlevantinearabic/  
+    - title: "Basque"
+      url: /coordination/basque/      
     - title: "Bosnian-Croatian-Montenegrin-Serbian"
-      url: /coordination/bosnian-croatian-montenegrin-serbian/
+      url: /coordination/bosniancroatianmontenegrinserbian/
     - title: "Bulgarian"
       url: /coordination/bulgarian/
     - title: "Catalan"
       url: /coordination/catalan/
+    - title: "Chacobo"
+      url: /coordination/chacobo/      
+    - title: "Estonian"
+      url: /coordination/estonian/      
+    - title: "Friulian"
+      url: /coordination/friulian/      
+    - title: "German (Palatine)"
+      url: /coordination/germanpalatine/      
+    - title: "German (Standard)"
+      url: /coordination/germanstandard/      
+    - title: "Greek (Modern)"
+      url: /coordination/greekmodern/     
     - title: "Hebrew"
       url: /coordination/hebrew/
+    - title: "Italian"
+      url: /coordination/italian/      
     - title: "Low German"
       url: /coordination/lowgerman/
-    - title: "Modern Standard Arabic"
-      url: /coordination/modernstandardarabic/  
-    - title: "North Levantine Arabic"
-      url: /coordination/northlevantinearabic/  
-    - title: "Persian"
-      url: /coordination/persian/  
+    - title: "Mussau-Emira"
+      url: /coordination/mussauemira/      
+    - title: "Persian (Tehrani)"
+      url: /coordination/persiantehrani/  
+    - title: "Persian (Standard)"
+      url: /coordination/persianstandard/      
     - title: "Polish"
       url: /coordination/polish/  
     - title: "Russian"
       url: /coordination/russian/  
+    - title: "Sicilian"
+      url: /coordination/sicilian/      
+    - title: "Somali"
+      url: /coordination/somali/      
     - title: "Turkish"
       url: /coordination/turkish/  
     - title: "Ukranian"
