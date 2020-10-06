@@ -222,6 +222,8 @@ $('#load_data').click(function(){
         lang_link += cell_data[cell_count];
         lang_link = lang_link.toLowerCase();
         lang_link = lang_link.replace("(", "");
+        lang_link = lang_link.replace(")", "");
+        lang_link = lang_link.replace("-", "");
         lang_link = lang_link.split(" ").join("");
 
         table_data += '<td><a href="'+lang_link+'">'+cell_data[cell_count]+'</a></td>';
