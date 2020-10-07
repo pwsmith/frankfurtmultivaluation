@@ -77,9 +77,11 @@ sidebar:
      <button type="button" name="load_data" id="load_data" class="btn btn-info">Load Data</button>
     </div>
     <br />
-    <dic id="analysis">
+    <div id="analysis">
     </div>
-    <br />
+
+    <div id="download">
+    </div>
 
     <div id="language_table">
     </div>
@@ -182,19 +184,12 @@ $('#load_data').click(function(){
     }
     table_data += '</tr></thead><tbody>';
 
+    //adds head for csv-file
+    var csv = row_data[0]+"\n";
+
     //----------
     //Counters and strings for analysis
     result_counter = 0; //counts number of results
-    /*
-    lang_counter = 0; //counts number of languages
-    lang_string = ""; //lists languages
-    langfam_counter = 0; //counts number of language families
-    langfam_string = ""; //lists language families
-    feat_counter = 0; //counts number of language features
-    feat_string = ""; //lists agreement features
-    order_counter = 0; // counts number of word orders
-    order_string = ""; //lists word orders
-    */
     lang_array = []; //array for analysis of languages
     langfam_array = []; //array for analysis of language families
     feat_array = []; //array for analysis of agreement features
@@ -215,8 +210,6 @@ $('#load_data').click(function(){
      var bool_type = str_cell_data.includes(","+sel_type+",");
      var bool_patt = str_cell_data.includes(sel_patt);
 
-     //$('#language_table').html(typeof sel_lang);
-
      //produces line if option is set to Select all or if line contains search term
      if((sel_lang === "Select All" || sel_lang === "" || sel_lang == cell_data[0])
          && (sel_langfam === "Select All" || sel_langfam === "" || sel_langfam == cell_data[1])
@@ -226,6 +219,10 @@ $('#load_data').click(function(){
          && (sel_patt === "all" || bool_patt)
         )
      {
+      //adds line to download-file
+      csv += row_data[count]+"\n";
+
+      //adds line for website
       table_data += '<tr>';
 
       //variable for link to language file
@@ -287,6 +284,7 @@ $('#load_data').click(function(){
     //----------
     table_data += '</tbody></table>';
 
+    //variables for analysis
     var lang_a = [],
     lang_b = [],
     langfam_a = [],
@@ -360,7 +358,8 @@ $('#load_data').click(function(){
     }
     prev = type_array[i];
     }
-
+    
+    //counts and lists patterns
     pattern_array.sort();
     for (var i = 0; i < pattern_array.length; i++) {
     if (pattern_array[i] !== prev) {
@@ -373,7 +372,7 @@ $('#load_data').click(function(){
     }
 
     var percent = 0;
-    result = "<p><b>"+result_counter+" results found</b>:</p>";
+    var result = "<p><b>"+result_counter+" results found:</b></p>";
 
     //writes analysis of languages
     if (lang_a[0] == "")
@@ -447,8 +446,25 @@ $('#load_data').click(function(){
     result +="</li>";
     result += "</ul>";
 
+    //creates string for txt-file to download
+    var result_file = result;
+    result_file = result_file.replace(/<\w{0,3}>/g, "");
+    result_file = result_file.replace(/<\/?\w{0,3}>/g, "\n\n");
+
+    //saves results and creates download link for analysis
+    console.log(result_file);
+    var href = 'data:text/csv;charset=utf-8,' + encodeURI(result_file);
+    var download = '<br/><a href = "'+href+'" target = "_blank" download="result.txt">Download results</a>';
+
+    //saves table and creates download link for table
+    console.log(csv);
+    href = 'data:text/csv;charset=utf-8,' + encodeURI(csv);
+    download += ' <a href = "'+href+'" target = "_blank" download="table.csv">Download table</a><br/>';
+
+
     if(result_counter > 0)
     {
+      document.getElementById('download').innerHTML = download;
       document.getElementById('analysis').innerHTML = result;
       document.getElementById('language_table').innerHTML = table_data;
     }
@@ -462,10 +478,10 @@ $('#load_data').click(function(){
       $('input[name=lang]').val('');
       $('input[name=langfam]').val('');
 
-    //$('#language_table').html(sel_feat);
    }
   });
  });
 
 });
+
 </script>
