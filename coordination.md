@@ -3,10 +3,12 @@ layout: single
 title: Coordination
 permalink: /coordination/
 sidebar:
- nav: "coordination"
+ nav: "languages"
 ---
 
-[**Questionnaire**](https://pwsmith.github.io/multivaluation/formcoordination/)
+[**Got to the database**](https://pwsmith.github.io/multivaluation/dbcoord/)
+
+[**Got to questionnaire**](https://pwsmith.github.io/multivaluation/formcoordination/)
 
 The sub-project on coordination has two foci, both centered around the observation that whilst agreement in conjunctions often reflects the sum of the conjuncts involved (*a boy and a girl **are** walking*), agreement in disjunctions typically only reflects one of the disjuncts (*a boy or a girl **is** walking*).
 
@@ -19,6 +21,6 @@ The subproject on coordination then has two aims.
  - To test the crosslinguistic robustness of the observation that conjunction involves resolved agreement but disjunction does not.
  - To identify and test semantic influences that increase resolved agreement in disjunctions.
 
-Please see the links to the left for our language reports on the behaviour of coordination in our typological sample.
+Please see the links to the left for our database and our language reports on the behaviour of coordination in various languages.
 This part is constantly under construction, as we add new languages.
 
