@@ -1,23 +1,23 @@
 Language Name,Language Family,Agreement Features,Word Orders,Coordination Types,Patterns
-Arabic (Modern Standard),Afro-Asiatic,Gender,SV,and,Resolved Agreement
-Arabic (Modern Standard),Afro-Asiatic,Gender,VS,and,Closest Conjunct Agreement
-Arabic (Modern Standard),Afro-Asiatic,Gender,SV,or,Resolved Agreement
-Arabic (Modern Standard),Afro-Asiatic,Gender,VS,or,Closest Conjunct Agreement
-Arabic (Modern Standard),Afro-Asiatic,Number,SV,and,Resolved Agreement
-Arabic (Modern Standard),Afro-Asiatic,Number,VS,and,Default Agreement
-Arabic (Modern Standard),Afro-Asiatic,Number,SV,or,Resolved Agreement
-Arabic (Modern Standard),Afro-Asiatic,Number,VS,or,Default Agreement
-Arabic (Modern Standard),Afro-Asiatic,Person,SV,and,Resolved Agreement
-Arabic (Modern Standard),Afro-Asiatic,Person,SV,or,Resolved Agreement
-Arabic (North Levantine),Afro-Asiatic,Gender,SV,and,Resolved Agreement
-Arabic (North Levantine),Afro-Asiatic,Gender,SV,or,Resolved Agreement
-Arabic (North Levantine),Afro-Asiatic,Gender,VS,and,Resolved Agreement
-Arabic (North Levantine),Afro-Asiatic,Gender,VS,or,Resolved Agreement
-Arabic (North Levantine),Afro-Asiatic,Number,SV,and,Resolved Agreement
-Arabic (North Levantine),Afro-Asiatic,Number,SV,or,Resolved Agreement
-Arabic (North Levantine),Afro-Asiatic,Number,VS,and,Resolved Agreement
-Arabic (North Levantine),Afro-Asiatic,Number,VS,or,Closest Conjunct Agreement
-Arabic (North Levantine),Afro-Asiatic,Person,SV,and,Resolved Agreement
-Arabic (North Levantine),Afro-Asiatic,Person,SV,or,Resolved Agreement
-Arabic (North Levantine),Afro-Asiatic,Person,VS,and,Closest Conjunct Agreement
-Arabic (North Levantine),Afro-Asiatic,Person,VS,or,Closest Conjunct Agreement
+Arabic (Modern Standard),Afro-Asiatic,Gender,SV,And,Resolved Agreement
+Arabic (Modern Standard),Afro-Asiatic,Gender,VS,And,Closest Conjunct Agreement
+Arabic (Modern Standard),Afro-Asiatic,Gender,SV,Or,Resolved Agreement
+Arabic (Modern Standard),Afro-Asiatic,Gender,VS,Or,Closest Conjunct Agreement
+Arabic (Modern Standard),Afro-Asiatic,Number,SV,And,Resolved Agreement
+Arabic (Modern Standard),Afro-Asiatic,Number,VS,And,Default Agreement
+Arabic (Modern Standard),Afro-Asiatic,Number,SV,Or,Resolved Agreement
+Arabic (Modern Standard),Afro-Asiatic,Number,VS,Or,Default Agreement
+Arabic (Modern Standard),Afro-Asiatic,Person,SV,And,Resolved Agreement
+Arabic (Modern Standard),Afro-Asiatic,Person,SV,Or,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Gender,SV,And,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Gender,SV,Or,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Gender,VS,And,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Gender,VS,Or,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Number,SV,And,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Number,SV,Or,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Number,VS,And,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Number,VS,Or,Closest Conjunct Agreement
+Arabic (North Levantine),Afro-Asiatic,Person,SV,And,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Person,SV,Or,Resolved Agreement
+Arabic (North Levantine),Afro-Asiatic,Person,VS,And,Closest Conjunct Agreement
+Arabic (North Levantine),Afro-Asiatic,Person,VS,Or,Closest Conjunct Agreement
