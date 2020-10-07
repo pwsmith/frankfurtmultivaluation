@@ -82,6 +82,10 @@ languages:
       url: /coordination/venetian/  
   
 coordination:
+  - title: "Database"
+    url: /dbcoord/
+  - title: "Questionnaire"
+    url: /formcoordination/  
   - title: "Language Families"
     children:
     - title: "Afro-Asiatic"
