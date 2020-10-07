@@ -2,6 +2,7 @@
 layout: single
 title: Coordination
 permalink: /coordination/
+author_profile: true
 sidebar:
  nav: "languages"
 ---
