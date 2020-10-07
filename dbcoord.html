@@ -11,9 +11,9 @@ sidebar:
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <div class="container">
-  
+
   <p><a href="https://pwsmith.github.io/multivaluation/howtouse.pdf">How to use the database</a></p>
-  
+
    <div class="table-responsive">
    <h2>Filters:</h2>
 <div align="center">
@@ -60,8 +60,8 @@ sidebar:
    </select></td>
   <td><select id="type" name="type">
     <option value="all">Select All</option>
-    <option value="and">and</option>
-    <option value="or">or</option>
+    <option value="and">And</option>
+    <option value="or">Or</option>
    </select></td>
   <td>  <select id="patt" name="patt">
     <option value="all">Select All</option>
@@ -77,6 +77,9 @@ sidebar:
      <button type="button" name="load_data" id="load_data" class="btn btn-info">Load Data</button>
     </div>
     <br />
+    <dic id="analysis">
+    </div>
+
     <div id="language_table">
     </div>
    </div>
@@ -102,21 +105,21 @@ $.ajax({
        {
          var cell_data = row_data[count].split(",");
          var bool_cell_lang = lang_list.includes(cell_data[0]);
-         
+
          //adds language if language is not already among the options
          if(!bool_cell_lang)
          {
            lang_list.push(cell_data[0]);
          }
          var bool_cell_langfam = langfam_list.includes(cell_data[1]);
-         
+
          //adds language family if language family is not already among the options
          if(!bool_cell_langfam)
          {
            langfam_list.push(cell_data[1]);
          }
        }
-       
+
       //adds all language options alphabetically to html code
        lang_list.sort();
        var lang_options = '<option value="Select All">';
@@ -143,7 +146,6 @@ $('#load_data').click(function(){
    dataType:"text",
    success:function(data)
    {
-    var count_rows = 0;
     //Get selected language
     var lang = document.getElementById("lang");
     var sel_lang = lang.value.toString();
@@ -178,6 +180,27 @@ $('#load_data').click(function(){
       table_data += '<th>'+cell_data[cell_count]+'</th>';
     }
     table_data += '</tr></thead><tbody>';
+
+    //----------
+    //Counters and strings for analysis
+    result_counter = 0; //counts number of results
+    /*
+    lang_counter = 0; //counts number of languages
+    lang_string = ""; //lists languages
+    langfam_counter = 0; //counts number of language families
+    langfam_string = ""; //lists language families
+    feat_counter = 0; //counts number of language features
+    feat_string = ""; //lists agreement features
+    order_counter = 0; // counts number of word orders
+    order_string = ""; //lists word orders
+    */
+    lang_array = []; //array for analysis of languages
+    langfam_array = []; //array for analysis of language families
+    feat_array = []; //array for analysis of agreement features
+    order_array = []; //array for analysis of word orders
+    type_array = []; //array for analysis of coordination types
+    pattern_array = []; //array for analysis of patterns
+
     //----------
     //Data Rows
     for(var count = 1; count<row_data.length; count++)
@@ -188,17 +211,9 @@ $('#load_data').click(function(){
      //check whether line matches search
      var bool_feat = str_cell_data.includes(sel_feat);
      var bool_order = str_cell_data.includes(sel_order);
-     var bool_type = str_cell_data.includes(sel_type);
+     var bool_type = str_cell_data.includes(","+sel_type+",");
      var bool_patt = str_cell_data.includes(sel_patt);
 
-     /*
-     var cell_lang = cell_data[0];
-     var cell_langfam = cell_data[2];
-     var cell_feat = new String(cell_data[4]);
-     var cell_order = cell_data[5];
-     var cell_type = cell_data[6];
-     var cell_patt = cell_data[7];
-     */
      //$('#language_table').html(typeof sel_lang);
 
      //produces line if option is set to Select all or if line contains search term
@@ -210,7 +225,6 @@ $('#load_data').click(function(){
          && (sel_patt === "all" || bool_patt)
         )
      {
-      count_rows++;
       table_data += '<tr>';
 
       //variable for link to language file
@@ -219,36 +233,229 @@ $('#load_data').click(function(){
       //adds line
       for(var cell_count=0; cell_count<cell_data.length; cell_count++)
       {
-       if(cell_count === 0)  //creates link to language
+       if(cell_count === 0)  //adds language and creates link to language
        {
-        //removes spaces in language name and converts to lower case
         lang_link += cell_data[cell_count];
+
+        //removes spaces, brackets, and hyphens in language name and converts to lower case
         lang_link = lang_link.toLowerCase();
         lang_link = lang_link.replace("(", "");
         lang_link = lang_link.replace(")", "");
         lang_link = lang_link.replace("-", "");
         lang_link = lang_link.split(" ").join("");
 
+        lang_array.push(cell_data[cell_count]);
         table_data += '<td><a href="'+lang_link+'">'+cell_data[cell_count]+'</a></td>';
        }
-       else
+       if(cell_count === 1)  //adds language family
        {
-        table_data += '<td>'+cell_data[cell_count]+'</td>';
+         langfam_array.push(cell_data[cell_count]);
+         table_data += '<td>'+cell_data[cell_count]+'</td>';
        }
+
+       if(cell_count === 2)  //adds agreement feature
+       {
+         feat_array.push(cell_data[cell_count]);
+         table_data += '<td>'+cell_data[cell_count]+'</td>';
+       }
+
+       if(cell_count === 3)  //adds word order
+       {
+         order_array.push(cell_data[cell_count]);
+         table_data += '<td>'+cell_data[cell_count]+'</td>';
+       }
+
+       if(cell_count === 4)  //adds coordination type
+       {
+         type_array.push(cell_data[cell_count]);
+         table_data += '<td>'+cell_data[cell_count]+'</td>';
+       }
+
+       if(cell_count === 5)  //adds pattern
+       {
+         pattern_array.push(cell_data[cell_count]);
+         table_data += '<td>'+cell_data[cell_count]+'</td>';
+       }
+
       }
       table_data += '</tr>';
+      result_counter++;
      }
 
     }
     //----------
     table_data += '</tbody></table>';
-    if(count_rows > 0)
+
+    var lang_a = [],
+    lang_b = [],
+    langfam_a = [],
+    langfam_b = [],
+    feat_a = [],
+    feat_b = [],
+    order_a = [],
+    order_b = [],
+    type_a = [],
+    type_b = [],
+    pattern_a = [],
+    pattern_b = [],
+    prev;
+
+    //counts and lists languages
+    lang_array.sort();
+    for (var i = 0; i < lang_array.length; i++) {
+    if (lang_array[i] !== prev) {
+      lang_a.push(lang_array[i]);
+      lang_b.push(1);
+    } else {
+      lang_b[lang_b.length - 1]++;
+    }
+    prev = lang_array[i];
+    }
+
+    //counts and lists language families
+    langfam_array.sort();
+    for (var i = 0; i < langfam_array.length; i++) {
+    if (langfam_array[i] !== prev) {
+      langfam_a.push(langfam_array[i]);
+      langfam_b.push(1);
+    } else {
+      langfam_b[langfam_b.length - 1]++;
+    }
+    prev = langfam_array[i];
+    }
+
+    //counts and lists agreement features
+    feat_array.sort();
+    for (var i = 0; i < feat_array.length; i++) {
+    if (feat_array[i] !== prev) {
+      feat_a.push(feat_array[i]);
+      feat_b.push(1);
+    } else {
+      feat_b[feat_b.length - 1]++;
+    }
+    prev = feat_array[i];
+    }
+
+    //counts and lists word orders
+    order_array.sort();
+    for (var i = 0; i < order_array.length; i++) {
+    if (order_array[i] !== prev) {
+      order_a.push(order_array[i]);
+      order_b.push(1);
+    } else {
+      order_b[order_b.length - 1]++;
+    }
+    prev = order_array[i];
+    }
+
+    //counts and lists coordination types
+    type_array.sort();
+    for (var i = 0; i < type_array.length; i++) {
+    if (type_array[i] !== prev) {
+      type_a.push(type_array[i]);
+      type_b.push(1);
+    } else {
+      type_b[type_b.length - 1]++;
+    }
+    prev = type_array[i];
+    }
+
+    pattern_array.sort();
+    for (var i = 0; i < pattern_array.length; i++) {
+    if (pattern_array[i] !== prev) {
+      pattern_a.push(pattern_array[i]);
+      pattern_b.push(1);
+    } else {
+      pattern_b[pattern_b.length - 1]++;
+    }
+    prev = pattern_array[i];
+    }
+
+    var percent = 0;
+    result = "<p><b>"+result_counter+" results found</b>:</p>";
+
+    //writes analysis of languages
+    if (lang_a[0] == "")
     {
+      var lang_length = lang_a.length-1;
+      result += "<li><b>"+lang_length+" languages found:</b> ";
+    }
+    else
+    {
+       result += "<li><b>"+lang_a.length+" languages found:</b> ";
+    }
+    for(var i = 0; i < lang_a.length; i++)
+    {
+      percent = (lang_b[i]/result_counter)*100;
+      percent = percent.toFixed(2);
+      if (lang_a[i] !== "")
+      {
+      result += lang_a[i]+" ("+percent+"%), ";
+      }
+    }
+    result +="</li>";
+
+    //writes analysis of language families
+    result += "<li><b>"+langfam_a.length+" language families found:</b> ";
+    for(var i = 0; i < langfam_a.length; i++)
+    {
+      percent = (langfam_b[i]/result_counter)*100;
+      percent = percent.toFixed(2);
+      result += langfam_a[i]+" ("+percent+"%), ";
+    }
+    result +="</li>";
+
+    //writes analysis of agreement features
+    result += "<li><b>"+feat_a.length+" agreement features found:</b> ";
+    for(var i = 0; i < feat_a.length; i++)
+    {
+      percent = (feat_b[i]/result_counter)*100;
+      percent = percent.toFixed(2);
+      result += feat_a[i]+" ("+percent+"%), ";
+    }
+    result +="</li>";
+
+    //writes analysis of word orders
+    result += "<li><b>"+order_a.length+" word orders found:</b> ";
+    for(var i = 0; i < order_a.length; i++)
+    {
+      percent = (order_b[i]/result_counter)*100;
+      percent = percent.toFixed(2);
+      result += order_a[i]+" ("+percent+"%), ";
+    }
+    result +="</li>";
+
+    //writes analysis of coordination type
+    result += "<li><b>"+type_a.length+" coordination types found:</b> ";
+    for(var i = 0; i < type_a.length; i++)
+    {
+      percent = (type_b[i]/result_counter)*100;
+      percent = percent.toFixed(2);
+      result += type_a[i]+" ("+percent+"%), ";
+    }
+    result +="</li>";
+
+    //writes analysis of pattern
+    result += "<li><b>"+pattern_a.length+" patterns found:</b> ";
+    for(var i = 0; i < pattern_a.length; i++)
+    {
+      percent = (pattern_b[i]/result_counter)*100;
+      percent = percent.toFixed(2);
+      result += pattern_a[i]+" ("+percent+"%), ";
+    }
+    result +="</li>";
+    result += "</ul>";
+
+    if(result_counter > 0)
+    {
+      document.getElementById('analysis').innerHTML = result;
       document.getElementById('language_table').innerHTML = table_data;
     }
     else
     {
-      $('#language_table').html("No results found.");
+      $('#analysis').html("No results found.");
+      $('#language_table').html("");
+
     }
       //clears search fields after printing results
       $('input[name=lang]').val('');
