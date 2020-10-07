@@ -454,12 +454,12 @@ $('#load_data').click(function(){
     //saves results and creates download link for analysis
     console.log(result_file);
     var href = 'data:text/csv;charset=utf-8,' + encodeURI(result_file);
-    var download = '<br/><a href = "'+href+'" target = "_blank" download="result.txt">Download results</a>';
+    var download = '<br/><p><a href = "'+href+'" target = "_blank" download="result.txt">Download results</a>';
 
     //saves table and creates download link for table
     console.log(csv);
     href = 'data:text/csv;charset=utf-8,' + encodeURI(csv);
-    download += ' <a href = "'+href+'" target = "_blank" download="table.csv">Download table</a><br/>';
+    download += ' <a href = "'+href+'" target = "_blank" download="table.csv">Download table</a><br/></p>';
 
 
     if(result_counter > 0)
