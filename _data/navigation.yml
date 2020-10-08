@@ -31,9 +31,9 @@ languages:
   - title: "All Languages"
     children:
     - title: "Arabic (Modern Standard)"
-      url: /coordination/modernstandardarabic/  
+      url: /coordination/arabicmodernstandard/  
     - title: "Arabic (North Levantine)"
-      url: /coordination/northlevantinearabic/  
+      url: /coordination/arabicnorthlevantine/  
     - title: "Basque"
       url: /coordination/basque/      
     - title: "Bosnian-Croatian-Montenegrin-Serbian"
