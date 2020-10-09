@@ -220,6 +220,7 @@ figure {
   iframe,
   .fluid-width-video-wrapper {
     margin-bottom: 1em;
+    width: 100%;
   }
 
   img {
@@ -233,6 +234,7 @@ figure {
     display: block;
   }
 
+  /*
   &.half {
     > a,
     > img {
@@ -257,7 +259,7 @@ figure {
     figcaption {
       width: 100%;
     }
-  }
+  }*/
 }
 
 /* Figure captions */
