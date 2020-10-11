@@ -390,7 +390,11 @@ $('#load_data').click(function(){
       percent = percent.toFixed(2);
       if (lang_a[i] !== "")
       {
-      result += lang_a[i]+" ("+percent+"%), ";
+        result += lang_a[i]+" ("+percent+"%), ";
+      }
+      if (i == lang_a.length-1)
+      {
+        result += lang_a[i]+" ("+percent+"%) ";
       }
     }
     result +="</li>";
