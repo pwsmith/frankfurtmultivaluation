@@ -410,14 +410,15 @@ $('#load_data').click(function(){
     {
       percent = (lang_b[i]/result_counter)*100;
       percent = percent.toFixed(2);
-      if (lang_a[i] !== "")
-      {
-        result += lang_a[i]+" ("+percent+"%), ";
-      }
       if (i == (lang_a.length-1))
       {
         result += lang_a[i]+" ("+percent+"%)";
       }
+      else if (lang_a[i] !== "")
+      {
+        result += lang_a[i]+" ("+percent+"%), ";
+      }
+      
     }
     result +="</li>";
 
