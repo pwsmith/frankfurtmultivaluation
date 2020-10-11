@@ -447,42 +447,98 @@ $('#load_data').click(function(){
     result +="</li>";
 
     //writes analysis of agreement features
-    result += "<li><b>"+feat_a.length+" agreement features found:</b> ";
+    if (feat_a.length == 1)
+    {
+        result += "<li><b>"+feat_a.length+" agreement feature found:</b> ";
+    }
+    else
+    {
+        result += "<li><b>"+feat_a.length+" agreement features found:</b> ";
+    }
     for(var i = 0; i < feat_a.length; i++)
     {
       percent = (feat_b[i]/result_counter)*100;
       percent = percent.toFixed(2);
-      result += feat_a[i]+" ("+percent+"%), ";
+      if (i == (feat_a.length-1))
+      {
+        result += feat_a[i]+" ("+percent+"%) ";
+      }
+      else
+      {
+        result += feat_a[i]+" ("+percent+"%), ";
+      }
     }
     result +="</li>";
 
     //writes analysis of word orders
-    result += "<li><b>"+order_a.length+" word orders found:</b> ";
+    if (order_a.length == 1)
+    {
+        result += "<li><b>"+order_a.length+" word order found:</b> ";
+    }
+    else
+    {
+        result += "<li><b>"+order_a.length+" word orders found:</b> ";
+    }
     for(var i = 0; i < order_a.length; i++)
     {
       percent = (order_b[i]/result_counter)*100;
       percent = percent.toFixed(2);
-      result += order_a[i]+" ("+percent+"%), ";
+      if (i == (order_a.length-1))
+      {
+        result += order_a[i]+" ("+percent+"%)";
+      }
+      else
+      {
+        result += order_a[i]+" ("+percent+"%), ";
+      }
     }
     result +="</li>";
 
     //writes analysis of coordination type
-    result += "<li><b>"+type_a.length+" coordination types found:</b> ";
+    if (type_a.length == 1)
+    {
+        result += "<li><b>"+type_a.length+" coordination type found:</b> ";
+    }
+    else
+    {
+        result += "<li><b>"+type_a.length+" coordination types found:</b> ";
+    }
     for(var i = 0; i < type_a.length; i++)
     {
       percent = (type_b[i]/result_counter)*100;
       percent = percent.toFixed(2);
-      result += type_a[i]+" ("+percent+"%), ";
+      if (i == (type_a.length-1))
+      {
+        result += type_a[i]+" ("+percent+"%)";
+      }
+      else
+      {
+        result += type_a[i]+" ("+percent+"%), ";
+      }
     }
     result +="</li>";
 
     //writes analysis of pattern
-    result += "<li><b>"+pattern_a.length+" patterns found:</b> ";
+    if (pattern_a.length == 1)
+    {
+        result += "<li><b>"+pattern_a.length+" pattern found:</b> ";
+    }
+    else
+    {
+        result += "<li><b>"+pattern_a.length+" patterns found:</b> ";
+    }
     for(var i = 0; i < pattern_a.length; i++)
     {
       percent = (pattern_b[i]/result_counter)*100;
       percent = percent.toFixed(2);
-      result += pattern_a[i]+" ("+percent+"%), ";
+      if (i == (type_a.length-1))
+      {
+        result += pattern_a[i]+" ("+percent+"%)";
+      }
+      else
+      {
+        result += pattern_a[i]+" ("+percent+"%), ";
+      }
     }
     result +="</li>";
     result += "</ul>";
