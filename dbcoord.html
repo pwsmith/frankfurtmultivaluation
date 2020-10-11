@@ -372,18 +372,40 @@ $('#load_data').click(function(){
     }
 
     var percent = 0;
-    var result = "<h2>Results</h2><h3>Summary</h3><p><b>"+result_counter+" results found:</b></p>";
+    if (result_counter == 1)
+    {
+      var result = "<h2>Results</h2><h3>Summary</h3><p><b>"+result_counter+" result found:</b></p>";
+    }
+    else
+    {
+      var result = "<h2>Results</h2><h3>Summary</h3><p><b>"+result_counter+" results found:</b></p>";
+    }
 
     //writes analysis of languages
     if (lang_a[0] == "")
     {
       var lang_length = lang_a.length-1;
-      result += "<li><b>"+lang_length+" languages found:</b> ";
+      if (lang_length == 1)
+      {
+        result += "<li><b>"+lang_length+" language found:</b> ";
+      }
+      else
+      {
+        result += "<li><b>"+lang_length+" languages found:</b> ";
+      }
     }
     else
     {
-       result += "<li><b>"+lang_a.length+" languages found:</b> ";
+       if (lang_a.length == 1)
+      {
+        result += "<li><b>"+lang_a.length+" language found:</b> ";
+      }
+      else
+      {
+        result += "<li><b>"+lang_a.length+" languages found:</b> ";
+      }
     }
+     
     for(var i = 0; i < lang_a.length; i++)
     {
       percent = (lang_b[i]/result_counter)*100;
@@ -400,12 +422,26 @@ $('#load_data').click(function(){
     result +="</li>";
 
     //writes analysis of language families
-    result += "<li><b>"+langfam_a.length+" language families found:</b> ";
+    if (langfam_a.length == 1)
+      {
+        result += "<li><b>"+langfam_a.length+" language family found:</b> ";
+      }
+      else
+      {
+        result += "<li><b>"+langfam_a.length+" language families found:</b> ";
+      }
     for(var i = 0; i < langfam_a.length; i++)
     {
       percent = (langfam_b[i]/result_counter)*100;
       percent = percent.toFixed(2);
-      result += langfam_a[i]+" ("+percent+"%), ";
+      if (i == (langfam_a.length-1))
+      {
+        result += langfam_a[i]+" ("+percent+"%)";
+      }
+      else
+      {
+        result += langfam_a[i]+" ("+percent+"%), ";
+      }
     }
     result +="</li>";
 
