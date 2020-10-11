@@ -392,11 +392,8 @@ $('#load_data').click(function(){
       {
         result += lang_a[i]+" ("+percent+"%), ";
       }
-      if (i == lang_a.length-1)
-      {
-        result += lang_a[i]+" ("+percent+"%) ";
-      }
     }
+    result -= ",";
     result +="</li>";
 
     //writes analysis of language families
