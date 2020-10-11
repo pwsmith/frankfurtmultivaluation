@@ -174,7 +174,7 @@ $('#load_data').click(function(){
     var sel_patt = patt.options[patt.selectedIndex].value;
 
     var row_data = data.split(/\r?\n|\r/);
-    var table_data = '<h3>Table</h3><table class="sortable"><thead>';
+    var table_data = '<h2>All results</h2><table class="sortable"><thead>';
     //Head Row
     table_data += '<tr>';
     var cell_data = row_data[0].split(",");
@@ -374,11 +374,11 @@ $('#load_data').click(function(){
     var percent = 0;
     if (result_counter == 1)
     {
-      var result = "<h2>Results</h2><h3>Summary</h3><p><b>"+result_counter+" result found:</b></p>";
+      var result = "<h2>Summary</h2><p><b>"+result_counter+" result found:</b></p>";
     }
     else
     {
-      var result = "<h2>Results</h2><h3>Summary</h3><p><b>"+result_counter+" results found:</b></p>";
+      var result = "<h2>Summary</h2><p><b>"+result_counter+" results found:</b></p>";
     }
 
     //writes analysis of languages
