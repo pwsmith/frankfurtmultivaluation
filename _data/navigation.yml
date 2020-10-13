@@ -10,6 +10,8 @@ main:
     url: /output/
   - title: "Coordination"
     url: /coordination/
+  - title: "Database"
+    url: /dbcoord/
   - title: "Agreement"
     url: /matches/
   - title: "Workshop"
