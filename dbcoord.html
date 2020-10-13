@@ -239,7 +239,7 @@ $('#load_data').click(function(){
         lang_link = lang_link.toLowerCase();
         lang_link = lang_link.replace("(", "");
         lang_link = lang_link.replace(")", "");
-        lang_link = lang_link.replace("-", "");
+        lang_link = lang_link.replace(/\-/g, "");
         lang_link = lang_link.split(" ").join("");
 
         lang_array.push(cell_data[cell_count]);
@@ -358,7 +358,7 @@ $('#load_data').click(function(){
     }
     prev = type_array[i];
     }
-    
+
     //counts and lists patterns
     pattern_array.sort();
     for (var i = 0; i < pattern_array.length; i++) {
@@ -387,50 +387,136 @@ $('#load_data').click(function(){
       var lang_length = lang_a.length-1;
       if (lang_length == 1)
       {
-        result += "<li><b>"+lang_length+" language found:</b> ";
+        result += "<ul><li><b>"+lang_length+" language found:</b><br/>";
       }
       else
       {
-        result += "<li><b>"+lang_length+" languages found:</b> ";
+        result += "<ul><li><b>"+lang_length+" languages found:</b><br/>";
       }
     }
     else
     {
        if (lang_a.length == 1)
       {
-        result += "<li><b>"+lang_a.length+" language found:</b> ";
+        result += "<ul><li><b>"+lang_a.length+" language found:</b><br/>";
       }
       else
       {
-        result += "<li><b>"+lang_a.length+" languages found:</b> ";
+        result += "<ul><li><b>"+lang_a.length+" languages found:</b><br/>";
       }
     }
-     
+
+    //adds languages to result string sorted by frequency
+    while (lang_a.length > 0)
+    {
+      //finds the language with the largest number of results;
+      var largest = lang_b[0];
+      for (var i = 0; i < lang_b.length; i++)
+      {
+         if (largest < lang_b[i] )
+         {
+           largest = lang_b[i];
+         }
+      }
+      //finds index of largest number
+      var to_pop = lang_b.indexOf(largest);
+
+      //calculates percentage
+      percent = (largest/result_counter)*100;
+      percent = percent.toFixed(2);
+
+      //creates language link
+      var lang_link = 'https://pwsmith.github.io/multivaluation/coordination/'+lang_a[to_pop];
+      lang_link = lang_link.toLowerCase();
+      lang_link = lang_link.replace("(", "");
+      lang_link = lang_link.replace(")", "");
+      lang_link = lang_link.replace(/\-/g, "");
+      lang_link = lang_link.split(" ").join("");
+
+      //adds language to result string
+      if (lang_a.length == 1)
+      {
+        result += '<a href="'+lang_link+'">'+lang_a[to_pop]+'</a> <small>('+percent+'%)</small>';
+      }
+      else if (lang_a[to_pop] !== "")
+      {
+        result += '<a href="'+lang_link+'">'+lang_a[to_pop]+'</a> <small>('+percent+'%)</small>, ';
+      }
+
+      //removes found language from sorted language list
+      lang_a.splice(to_pop,1);
+      lang_b.splice(to_pop,1);
+    }
+
+    /*
     for(var i = 0; i < lang_a.length; i++)
     {
       percent = (lang_b[i]/result_counter)*100;
       percent = percent.toFixed(2);
+      var lang_link = 'https://pwsmith.github.io/multivaluation/coordination/'+lang_a[i];
+      lang_link = lang_link.toLowerCase();
+      lang_link = lang_link.replace("(", "");
+      lang_link = lang_link.replace(")", "");
+      lang_link = lang_link.replace("-", "");
+      lang_link = lang_link.split(" ").join("");
       if (i == (lang_a.length-1))
       {
-        result += lang_a[i]+" ("+percent+"%)";
+        result += '<a href="'+lang_link+'">'+lang_a[i]+'</a> ('+percent+'%)';
       }
       else if (lang_a[i] !== "")
       {
-        result += lang_a[i]+" ("+percent+"%), ";
+        result += '<a href="'+lang_link+'">'+lang_a[i]+'</a> ('+percent+'%), ';
       }
-      
+
     }
+    */
     result +="</li>";
 
     //writes analysis of language families
     if (langfam_a.length == 1)
       {
-        result += "<li><b>"+langfam_a.length+" language family found:</b> ";
+        result += "<li><b>"+langfam_a.length+" language family found:</b><br/>";
       }
       else
       {
-        result += "<li><b>"+langfam_a.length+" language families found:</b> ";
+        result += "<li><b>"+langfam_a.length+" language families found:</b><br/>";
       }
+
+    //adds language families to result string sorted by frequency
+    while (langfam_a.length > 0)
+    {
+      //finds the language family with the largest number of results;
+      var largest = langfam_b[0];
+      for (var i = 0; i < langfam_b.length; i++)
+      {
+         if (largest < langfam_b[i] )
+         {
+           largest = langfam_b[i];
+         }
+      }
+      //finds index of largest number
+      var to_pop = langfam_b.indexOf(largest);
+
+      //calculates percentage
+      percent = (largest/result_counter)*100;
+      percent = percent.toFixed(2);
+
+      //adds language family to result string
+      if (langfam_a.length == 1)
+      {
+        result += langfam_a[to_pop]+" <small>("+percent+"%)</small>";
+      }
+      else if (langfam_a[to_pop] !== "")
+      {
+        result += langfam_a[to_pop]+" <small>("+percent+"%)</small>, ";
+      }
+
+      //removes found language family from sorted language family list
+      langfam_a.splice(to_pop,1);
+      langfam_b.splice(to_pop,1);
+    }
+
+    /*
     for(var i = 0; i < langfam_a.length; i++)
     {
       percent = (langfam_b[i]/result_counter)*100;
@@ -444,17 +530,53 @@ $('#load_data').click(function(){
         result += langfam_a[i]+" ("+percent+"%), ";
       }
     }
+    */
     result +="</li>";
 
     //writes analysis of agreement features
     if (feat_a.length == 1)
     {
-        result += "<li><b>"+feat_a.length+" agreement feature found:</b> ";
+        result += "<li><b>"+feat_a.length+" agreement feature found:</b><br/>";
     }
     else
     {
-        result += "<li><b>"+feat_a.length+" agreement features found:</b> ";
+        result += "<li><b>"+feat_a.length+" agreement features found:</b><br/>";
     }
+
+    //adds features to result string sorted by frequency
+    while (feat_a.length > 0)
+    {
+      //finds the features with the largest number of results;
+      var largest = feat_b[0];
+      for (var i = 0; i < feat_b.length; i++)
+      {
+         if (largest < feat_b[i] )
+         {
+           largest = feat_b[i];
+         }
+      }
+      //finds index of largest number
+      var to_pop = feat_b.indexOf(largest);
+
+      //calculates percentage
+      percent = (largest/result_counter)*100;
+      percent = percent.toFixed(2);
+
+      //adds feature to result string
+      if (feat_a.length == 1)
+      {
+        result += feat_a[to_pop]+" <small>("+percent+"%)</small>";
+      }
+      else if (feat_a[to_pop] !== "")
+      {
+        result += feat_a[to_pop]+" <small>("+percent+"%)</small>, ";
+      }
+
+      //removes found feature from sorted feature list
+      feat_a.splice(to_pop,1);
+      feat_b.splice(to_pop,1);
+    }
+    /*
     for(var i = 0; i < feat_a.length; i++)
     {
       percent = (feat_b[i]/result_counter)*100;
@@ -468,17 +590,53 @@ $('#load_data').click(function(){
         result += feat_a[i]+" ("+percent+"%), ";
       }
     }
+    */
     result +="</li>";
 
     //writes analysis of word orders
     if (order_a.length == 1)
     {
-        result += "<li><b>"+order_a.length+" word order found:</b> ";
+        result += "<li><b>"+order_a.length+" word order found:</b><br/>";
     }
     else
     {
-        result += "<li><b>"+order_a.length+" word orders found:</b> ";
+        result += "<li><b>"+order_a.length+" word orders found:</b><br/>";
     }
+
+    //adds word orders to result string sorted by frequency
+    while (order_a.length > 0)
+    {
+      //finds the orders with the largest number of results;
+      var largest = order_b[0];
+      for (var i = 0; i < order_b.length; i++)
+      {
+         if (largest < order_b[i] )
+         {
+           largest = order_b[i];
+         }
+      }
+      //finds index of largest number
+      var to_pop = order_b.indexOf(largest);
+
+      //calculates percentage
+      percent = (largest/result_counter)*100;
+      percent = percent.toFixed(2);
+
+      //adds word order to result string
+      if (order_a.length == 1)
+      {
+        result += order_a[to_pop]+" <small>("+percent+"%)</small>";
+      }
+      else if (order_a[to_pop] !== "")
+      {
+        result += order_a[to_pop]+" <small>("+percent+"%)</small>, ";
+      }
+
+      //removes found word order from sorted word order list
+      order_a.splice(to_pop,1);
+      order_b.splice(to_pop,1);
+    }
+    /*
     for(var i = 0; i < order_a.length; i++)
     {
       percent = (order_b[i]/result_counter)*100;
@@ -492,17 +650,53 @@ $('#load_data').click(function(){
         result += order_a[i]+" ("+percent+"%), ";
       }
     }
+    */
     result +="</li>";
 
     //writes analysis of coordination type
     if (type_a.length == 1)
     {
-        result += "<li><b>"+type_a.length+" coordination type found:</b> ";
+        result += "<li><b>"+type_a.length+" coordination type found:</b><br/>";
     }
     else
     {
-        result += "<li><b>"+type_a.length+" coordination types found:</b> ";
+        result += "<li><b>"+type_a.length+" coordination types found:</b><br/>";
     }
+
+    //adds coordination type to result string sorted by frequency
+    while (type_a.length > 0)
+    {
+      //finds the type with the largest number of results;
+      var largest = type_b[0];
+      for (var i = 0; i < type_b.length; i++)
+      {
+         if (largest < type_b[i] )
+         {
+           largest = type_b[i];
+         }
+      }
+      //finds index of largest number
+      var to_pop = type_b.indexOf(largest);
+
+      //calculates percentage
+      percent = (largest/result_counter)*100;
+      percent = percent.toFixed(2);
+
+      //adds type to result string
+      if (type_a.length == 1)
+      {
+        result += type_a[to_pop]+" <small>("+percent+"%)</small>";
+      }
+      else if (type_a[to_pop] !== "")
+      {
+        result += type_a[to_pop]+" <small>("+percent+"%)</small>, ";
+      }
+
+      //removes found type from sorted type list
+      type_a.splice(to_pop,1);
+      type_b.splice(to_pop,1);
+    }
+    /*
     for(var i = 0; i < type_a.length; i++)
     {
       percent = (type_b[i]/result_counter)*100;
@@ -516,17 +710,53 @@ $('#load_data').click(function(){
         result += type_a[i]+" ("+percent+"%), ";
       }
     }
+    */
     result +="</li>";
 
     //writes analysis of pattern
     if (pattern_a.length == 1)
     {
-        result += "<li><b>"+pattern_a.length+" pattern found:</b> ";
+        result += "<li><b>"+pattern_a.length+" pattern found:</b><br/>";
     }
     else
     {
-        result += "<li><b>"+pattern_a.length+" patterns found:</b> ";
+        result += "<li><b>"+pattern_a.length+" patterns found:</b><br/>";
     }
+
+    //adds pattern to result string sorted by frequency
+    while (pattern_a.length > 0)
+    {
+      //finds the pattern with the largest number of results;
+      var largest = pattern_b[0];
+      for (var i = 0; i < pattern_b.length; i++)
+      {
+         if (largest < pattern_b[i] )
+         {
+           largest = pattern_b[i];
+         }
+      }
+      //finds index of largest number
+      var to_pop = pattern_b.indexOf(largest);
+
+      //calculates percentage
+      percent = (largest/result_counter)*100;
+      percent = percent.toFixed(2);
+
+      //adds pattern to result string
+      if (pattern_a.length == 1)
+      {
+        result += pattern_a[to_pop]+" <small>("+percent+"%)</small>";
+      }
+      else if (pattern_a[to_pop] !== "")
+      {
+        result += pattern_a[to_pop]+" <small>("+percent+"%)</small>, ";
+      }
+
+      //removes found pattern from sorted pattern list
+      pattern_a.splice(to_pop,1);
+      pattern_b.splice(to_pop,1);
+    }
+    /*
     for(var i = 0; i < pattern_a.length; i++)
     {
       percent = (pattern_b[i]/result_counter)*100;
@@ -540,13 +770,29 @@ $('#load_data').click(function(){
         result += pattern_a[i]+" ("+percent+"%), ";
       }
     }
+    */
     result +="</li>";
     result += "</ul>";
 
     //creates string for txt-file to download
     var result_file = result;
-    result_file = result_file.replace(/<\w{0,3}>/g, "");
-    result_file = result_file.replace(/<\/?\w{0,3}>/g, "\n\n");
+    result_file = result_file.replace("<h2>Summary</h2><p><b>", "");
+    result_file = result_file.replace("</b></p>", "\n\n");
+    result_file = result_file.replace("<ul><li><b>", "");
+    result_file = result_file.replace(/\<li\>\<b\>/g, "");
+    result_file = result_file.replace(/\<\/b\>\<br\/\>/g, "\n-  ");
+    result_file = result_file.replace(/https\:\/\/pwsmith\.github\.io\/multivaluation\/coordination\//g, "");
+    result_file = result_file.replace(/\<a\ href\=\"\w{0,100}\"\>/g, "");
+    result_file = result_file.replace(/<\/a>\ <small>/g, " ");
+    result_file = result_file.replace(/<small>/g, "");
+    result_file = result_file.replace(/<\/small>\u002C/g, "\n- ");
+    result_file = result_file.replace(/<\/small><\/li>/g, "\n\n");
+    result_file = result_file.replace("</ul>", "");
+
+    /*
+    result_file = result_file.replace(/<\w{0,5}>/g, "");
+    result_file = result_file.replace(/<\/?\w{0,5}>/g, "\n\n");
+    */
 
     //saves results and creates download link for analysis
     console.log(result_file);
