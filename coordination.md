@@ -4,7 +4,7 @@ title: Coordination
 permalink: /coordination/
 author_profile: true
 sidebar:
- nav: "languages"
+ nav: "coordination"
 ---
 
 The sub-project on coordination has two foci, both centered around the observation that whilst agreement in conjunctions often reflects the sum of the conjuncts involved (*a boy and a girl **are** walking*), agreement in disjunctions typically only reflects one of the disjuncts (*a boy or a girl **is** walking*).
