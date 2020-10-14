@@ -797,7 +797,7 @@ $('#load_data').click(function(){
     //saves results and creates download link for analysis
     console.log(result_file);
     var href = 'data:text/csv;charset=utf-8,' + encodeURI(result_file);
-    var download = '<br/><p><a href = "'+href+'" target = "_blank" download="result.txt">Download summary</a>';
+    var download = '<br/><p><a href = "'+href+'" target = "_blank" download="result.txt">Download summary</a> ';
 
     //saves table and creates download link for table
     console.log(csv);
@@ -822,6 +822,8 @@ $('#load_data').click(function(){
       $('input[name=langfam]').val('');
 
    }
+   result_counter = 0;
+   download = "";
   });
  });
 
