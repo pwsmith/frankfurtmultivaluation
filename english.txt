@@ -1,0 +1,60 @@
+The boy runs.
+The boys run.
+The man runs.
+The men run.
+The woman runs.
+The women run.
+I run.
+You (sg.) run.
+He runs.
+We run.
+You (all) run.
+They run.
+The woman and the man run.
+The man and the woman run.
+Run the woman and the man.
+Run the man and the woman.
+The woman or the man run.
+The man or the woman run.
+Run the woman or the man.
+Run the man or the woman.
+The boy and the man run.
+The boy and the men run.
+The boys and the man run.
+The boys and the men run.
+Run the boy and the man.
+Run the boy and the men.
+Run the boys and the man.
+Run the boys and the men.
+The boy or the man run.
+The boy or the men run.
+The boys or the man run.
+The boys or the men run.
+Run the boy or the man.
+Run the boy or the men.
+Run the boys or the man.
+Run the boys or the men.
+I and you run.
+You and I run.
+I and he run.
+He and I run.
+You and he run.
+He and you run.
+Run I and you.
+Run you and I.
+Run I and he.
+Run he and I.
+Run you and he.
+Run he and you.
+I or you run.
+You or I run.
+I or he run.
+He or I run.
+You or he run.
+He or you run.
+Run I or you.
+Run you or I.
+Run I or he.
+Run he or I.
+Run you or he.
+Run he or you.
